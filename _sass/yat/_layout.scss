@@ -2,6 +2,10 @@ pre {
   border-left: 4px solid $brand-color-light;
 }
 
+.web-tool {
+  border-left: 4px solid $brand-color-light;
+}
+
 /**
  * Links
  */
@@ -15,6 +19,10 @@ a {
     .25px .25px $brand-color-light;
     filter: contrast(200%);
     transition: 0.05s ease-in-out;
+  }
+
+  &:has(strong) {
+    filter: drop-shadow(1px 1px 10px $brand-color-light); 
   }
 
 
@@ -99,6 +107,8 @@ a {
   position: absolute;
   right: 0;
   top: 0;
+  margin-left: 205px;
+  white-space: nowrap;
 
 
   .menu-icon {
@@ -1009,9 +1019,17 @@ button[type=submit]:hover {
 }
 
 
+.accordion__title:hover {
+  color: black;
+  text-shadow: -.25px -.25px 0 black,
+  .25px .25px black;
+  transition: 0.05s ease-in-out;
+  filter: contrast(200%);
+}
 
-
-
+.pdf-frame {
+  border-left: 4px solid $brand-color-light;
+}
 
 
 

@@ -1,0 +1,327 @@
+<!-- refresh without plot button, add delay and interrupt to escape compute, make plotting area smaller, add rotate -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Superformula Patch Creator</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,600;1,400&display=swap">
+
+  <!-- PyScript: check pyscript.net for a newer release and update both lines together. -->
+  <link rel="stylesheet" href="https://pyscript.net/releases/2026.7.1/core.css">
+  <script type="module" src="https://pyscript.net/releases/2026.7.1/core.js"></script>
+
+  <style>
+    :root {
+      color-scheme: light dark;
+      --paper: #f4f6f8;
+      --sheet: #ffffff;
+      --ink: #17222d;
+      --graphite: #5b6875;
+      --rule: #d3dae1;
+      --trace: #1f77b4;
+      --on-trace: #ffffff;
+      --alert: #b3261e;
+      --sans: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+      --mono: "IBM Plex Mono", ui-monospace, "Cascadia Mono", Consolas, monospace;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --paper: #10161c;
+        --sheet: #171f27;
+        --ink: #e4eaf0;
+        --graphite: #93a1af;
+        --rule: #2a3540;
+        --trace: #58a6dc;
+        --on-trace: #0b1218;
+        --alert: #ff8a80;
+      }
+    }
+
+    [hidden] { display: none !important; }
+    sub { line-height: 0; }
+
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font: 12px/1.25 var(--sans);
+    }
+
+    .app {
+      max-width: 880px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    /* Two columns: formula and parameters on the left, output on the right */
+    .workbench {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr);
+      gap: 16px;
+    }
+    .side { min-width: 0; }
+
+    /* Formula, above the parameters. It is about 20x its font size wide,
+       so 12.5px is what fits the 260px column; widen both together. */
+    .formula {
+      overflow-x: auto;
+      margin-bottom: 14px;
+      padding-top: 4px;
+    }
+    .formula math {
+      font-size: 12.5px;
+    }
+    /* At this size the default exponents and subscripts get too small to read. */
+    .formula msup > :last-child,
+    .formula msub > :last-child { font-size: 0.8em; }
+    .formula msup > :last-child mfrac > * { font-size: 0.85em; }
+
+    @media (min-width: 640px) {
+      .workbench { grid-template-columns: 260px minmax(0, 1fr); gap: 32px; }
+    }
+
+    /* Parameters */
+    .params {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px 14px;
+      align-content: start;
+      margin: 0;
+      padding: 0;
+      border: 0;
+    }
+    .params legend {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      clip-path: inset(50%);
+    }
+    .param label {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 4px;
+    }
+    .param var { font-style: italic; }
+    .param .range {
+      font-size: 0.75rem;
+      color: var(--graphite);
+    }
+    .param input {
+      box-sizing: border-box;
+      width: 100%;
+      padding: 7px 8px;
+      border: 1px solid var(--rule);
+      border-radius: 3px;
+      background: var(--sheet);
+      color: var(--ink);
+      font: 500 0.95rem var(--mono);
+    }
+    .param input[aria-invalid="true"] { border-color: var(--alert); }
+
+    .plot-btn {
+      grid-column: 1 / -1;
+      margin-top: 4px;
+      padding: 10px;
+      border: 0;
+      border-radius: 3px;
+      background: var(--trace);
+      color: var(--on-trace);
+      font: 600 1rem var(--sans);
+      cursor: pointer;
+    }
+    .plot-btn:disabled { opacity: 0.6; cursor: progress; }
+
+    .status {
+      grid-column: 1 / -1;
+      min-height: 2.9em;
+      margin: 0;
+      font-size: 0.85rem;
+      color: var(--graphite);
+    }
+    .status.is-error { color: var(--alert); }
+
+    :is(input, button):focus-visible {
+      outline: 2px solid var(--trace);
+      outline-offset: 2px;
+    }
+
+    .panel {
+      height: min(440px, 105vw);
+    }
+    /* Side by side, the output column is exactly as tall as the left column:
+       the panel adds no height of its own, it only fills what the row gives it. */
+    @media (min-width: 640px) {
+      .workbench > section { display: flex; flex-direction: column; }
+      .panel { flex: 1 1 0; height: auto; min-height: 0; }
+    }
+
+    /* Plot panel */
+    #panel-plot {
+      display: flex;
+      flex-direction: column;
+    }
+    .plot-box {
+      flex: 1;
+      min-height: 0;
+      display: grid;
+      place-items: center;
+      color: var(--graphite);
+      text-align: center;
+    }
+    .plot-box svg {
+      width: 100%;
+      height: 100%;
+    }
+    .legend {
+      display: flex;
+      justify-content: center;
+      gap: 24px;
+      padding-top: 6px;
+      font-size: 0.85rem;
+      color: var(--graphite);
+    }
+    .legend > span {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .legend svg { width: 30px; height: 8px; }
+
+    /* Polar chart parts (the SVG itself is built in main.py) */
+    .rim   { fill: var(--sheet); stroke: var(--graphite); stroke-width: 1; }
+    .ring,
+    .spoke { fill: none; stroke: var(--rule); stroke-width: 1; }
+    .angle-label,
+    .ring-label {
+      fill: var(--graphite);
+      font-family: var(--mono);
+      text-anchor: middle;
+      dominant-baseline: central;
+    }
+    .angle-label { font-size: 10px; }
+    .ring-label { font-size: 9px; }
+    .curve-ref,
+    .swatch-ref {
+      fill: none;
+      stroke: var(--graphite);
+      stroke-width: 1.5;
+      stroke-dasharray: 7 3 1.5 3;
+    }
+    .curve-shape {
+      fill: var(--trace);
+      fill-opacity: 0.12;
+      stroke: var(--trace);
+      stroke-width: 2.5;
+      stroke-linejoin: round;
+    }
+    .swatch-shape { fill: none; stroke: var(--trace); stroke-width: 2.5; }
+  </style>
+</head>
+
+<body>
+  <main class="app">
+
+    <div class="workbench">
+
+      <div class="side">
+
+        <div class="formula">
+          <math display="block">
+            <mi>r</mi><mo stretchy="false">(</mo><mi>&#x3C6;</mi><mo stretchy="false">)</mo>
+            <mo>=</mo>
+            <msup>
+              <mrow>
+                <mo>(</mo>
+                <msup>
+                  <mrow>
+                    <mo>|</mo>
+                    <mi>cos</mi><mo>&#x2061;</mo><mrow><mo>(</mo><mfrac><mrow><mi>m</mi><mi>&#x3C6;</mi></mrow><mn>4</mn></mfrac><mo>)</mo></mrow>
+                    <mo>|</mo>
+                  </mrow>
+                  <msub><mi>n</mi><mn>2</mn></msub>
+                </msup>
+                <mo>+</mo>
+                <msup>
+                  <mrow>
+                    <mo>|</mo>
+                    <mi>sin</mi><mo>&#x2061;</mo><mrow><mo>(</mo><mfrac><mrow><mi>m</mi><mi>&#x3C6;</mi></mrow><mn>4</mn></mfrac><mo>)</mo></mrow>
+                    <mo>|</mo>
+                  </mrow>
+                  <msub><mi>n</mi><mn>3</mn></msub>
+                </msup>
+                <mo>)</mo>
+              </mrow>
+              <mrow><mo>&#x2212;</mo><mfrac><mn>1</mn><msub><mi>n</mi><mn>1</mn></msub></mfrac></mrow>
+            </msup>
+            <mrow><mo>&middot;</mo><mfrac><msub><mi>r</mi><mi>t</mi></msub><mrow><mi>max</mi><mo>(</mo><mi>r</mi><mo>(</mo><mn>&#x3C6;</mn><mo>)</mo><mo>)</mo></mrow></mfrac></mrow>
+          </math>
+        </div>
+
+        <!--
+          One block per parameter. value = default, step = arrow increment,
+          data-min / data-max = allowed range (checked in main.py).
+          If you add or remove a parameter here, update PARAMS in main.py too.
+        -->
+        <fieldset class="params">
+          <legend>Parameters</legend>
+
+          <div class="param">
+            <label for="p-m"><span><var>m</var></span></label>
+            <input id="p-m" type="number" inputmode="decimal" value="4" step="1">
+          </div>
+          <div class="param">
+            <label for="p-n_1"><span><var>n</var><sub>1</sub></span></label>
+            <input id="p-n_1" type="number" inputmode="decimal" value="2" step="0.5">
+          </div>
+          <div class="param">
+            <label for="p-n_2"><span><var>n</var><sub>2</sub></span></label>
+            <input id="p-n_2" type="number" inputmode="decimal" value="2" step="0.5">
+          </div>
+          <div class="param">
+            <label for="p-n_3"><span><var>n</var><sub>3</sub></span></label>
+            <input id="p-n_3" type="number" inputmode="decimal" value="2" step="0.5">
+          </div>
+          <div class="param">
+            <label for="p-r_t"><span><var>r</var><sub>t</sub></span></label>
+            <input id="p-r_t" type="number" inputmode="decimal" value="5" step="0.5">
+          </div>
+          <div class="param">
+            <label for="p-p_th"><span><var>p</var><sub>th</sub></span></label>
+            <input id="p-p_th" type="number" inputmode="decimal" value="0.018" step="0.01">
+          </div>
+
+          <p id="status" class="status" role="status">Loading the Python runtime. The first visit takes a few seconds.</p>
+        </fieldset>
+
+      </div>
+
+      <section aria-label="Plot">
+        <div class="panel" id="panel-plot">
+          <div id="plot-box" class="plot-box">The plot appears here once Python has loaded.</div>
+          <div class="legend">
+            <span><svg viewBox="0 0 30 8" aria-hidden="true"><line class="swatch-shape" x1="0" y1="4" x2="30" y2="4"/></svg><span><var>r</var><sub>&#x3C6;</sub></span></span>
+            <span><svg viewBox="0 0 30 8" aria-hidden="true"><line class="swatch-ref" x1="0" y1="4" x2="30" y2="4"/></svg><span><var>r</var><sub>t</sub></span></span>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!--
+    main.py     = GUI logic (port of gui_main.py)
+    calculations.py = the backend; "files" copies it next to main.py so
+                      `import calculations` works. List any extra modules
+                      or packages your backend needs here too.
+  -->
+  <script type="py" src="./sf_calc_backend.py"
+          config='{"packages": ["numpy"], "files": {"./sf_calc_code.py": "./sf_calc_code.py"}}'></script>
+</body>
+</html>

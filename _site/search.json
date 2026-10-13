@@ -4,152 +4,180 @@
 
     "title"    : "EE558 Satellite Communication Systems Notes",
     "url"      : "/course-resources/satellite-communication-systems",
-    "date"     : "2023-07-03 00:03:11 +0300",
+    "date"     : "2023-07-02 14:03:11 -0700",
     "content" : "I took this course in the spring semester of 2022/2023, it was instructed by Prof. Dr. Mansour Abbadi.The notes are in reference to T. Pratt’s Satellite Communications, and Prof. Mansour’s notes, lectures, past exams, and past homeworks.These notes are not free from mistakes, reader discretion is advised. Please contact me if you have any concerns.&amp;nbsp;View below or click here"
 
 
-  } ,
+  },
   
   {
 
     "title"    : "EE524 RF Communication Circuits Notes",
     "url"      : "/course-resources/rf-communication-circuits",
-    "date"     : "2023-07-03 00:03:10 +0300",
+    "date"     : "2023-07-02 14:03:10 -0700",
     "content" : "I took this course in the spring semester of 2022/2023, it was instructed by Prof. Dr. Mansour Abbadi.The notes are in reference to J. Smith’s Modern Communication Circuits, and Prof. Mansour’s notes, lectures, past exams, and past homeworks.These notes are not free from mistakes, reader discretion is advised. Please contact me if you have any concerns.&amp;nbsp;View below or click here"
 
 
-  } ,
+  },
   
   {
 
     "title"    : "EE555 Optical Fiber Communication Systems Notes",
     "url"      : "/course-resources/optical-fibers-notes",
-    "date"     : "2023-02-27 00:03:11 +0300",
+    "date"     : "2023-02-26 13:03:11 -0800",
     "content" : "I took this course in the fall semester of 2022/2023, it was instructed by Prof. Dr. Mansour Abbadi.The notes are in reference to G. Keiser’s Optical Fiber Communications, and Prof. Mansour’s notes, lectures, past exams, and past homeworks.These notes are not free from mistakes, reader discretion is advised. Please contact me if you have any concerns.&amp;nbsp;View below or click here"
 
 
-  } ,
+  },
   
   {
 
     "title"    : "EE575 Communication Networks Notes",
     "url"      : "/course-resources/networks-notes",
-    "date"     : "2023-02-27 00:03:10 +0300",
+    "date"     : "2023-02-26 13:03:10 -0800",
     "content" : "I took this course in the fall semester of 2022/2023, it was instructed by Dr. Mahmoud Khodeir.The notes are in reference to B. Forouzan’s Data Communications and Networking, and Dr. Mahmoud’s lectures and past exams.These notes are not free from mistakes, reader discretion is advised. Please contact me if you have any concerns.&amp;nbsp;View below or click here"
 
 
-  } ,
+  },
   
   {
 
     "title"    : "EE407 Antennas and Radio Wave Propagation Equations",
     "url"      : "/course-resources/EE407-equations",
-    "date"     : "2022-06-19 00:00:00 +0300",
+    "date"     : "2022-06-19 00:00:00 -0700",
     "content" : "I took this course in the spring semester of 2021/2022, it was instructed by Prof. Dr. Majid Khodier.The equations were mainly compiled from Prof. Majid’s notes and lectures, as well as various textbooks such as R. E. Collin’s Antennas and Radio Wave Propagation.Please contact me if you have any concerns.&amp;nbsp;View below or click here"
 
 
-  } ,
+  },
   
   {
 
     "title"    : "EE551 Digital Communications Equations",
     "url"      : "/course-resources/EE551-equations",
-    "date"     : "2022-06-14 00:00:00 +0300",
+    "date"     : "2022-06-14 00:00:00 -0700",
     "content" : "I took this course in the spring semester of 2021/2022, it was instructed by Dr. Ibrahim Ghareeb.The equations were compiled from Dr. Ibrahim’s slides and lectures, as well as J. G. Proakis and M. Salehi’s Fundamentals of Communication Systems.Please contact me if you have any concerns.&amp;nbsp;View below or click here"
 
 
-  } ,
+  },
   
   {
 
     "title"    : "Initialization",
     "url"      : "/guides/initialization/",
-    "date"     : "2021-06-24 00:17:08 +0300",
+    "date"     : "2021-06-23 14:17:08 -0700",
     "content" : "Here, I will detail how and why I built this site for those who are interested in building one for themselves.&amp;nbsp;How?As a student, using open-source/freeware was a priority. At the time of writing this post (June 24th 2021), I have not paid a single cent for this website, and I am only expecting to pay to renew my domain registration (~20USD/year).Unless major changes have been made to the services I used, you should be able to create a completely free website by following the steps outlined below.As always, feel free to reach out if any issues linger.Note: you don’t need to follow the exact order of the steps, however, this is the order I followed.&amp;nbsp;Steps:Setup: Make a GitHub account: Having a GitHub account was essential to me because I chose to host my website on GitHub Pages, which is a free hosting service for static sites. Registering a domain: Another reason why a GitHub account is essential is that if you sign up to GitHub with a student email address (i.e., the email address provided by your institution), you can register a free .me domain for a year on namecheap. To access all GitHub student benefits (including the free .me domain registration), click here. Mentioning the steps for registering a domain is redundant, as they are easy to follow and are outlined by namecheap or any other domain registry service you choose to use. Access your domain: If you’ve registered your domain to your GitHub account successfully, then going on your domain should show your GitHub username. Register for cloudflare: I found that cloudflare DNS was the most suitable for me. Hence, my next step was to sign up to cloudflare and put my domain on their Free Plan. To setup the DNS records and add cloudflare’s servers, I followed this guide by namecheap. &amp;nbsp;Interlude 1:Now that you’ve registered for all necessary services, the next steps will be downloading and installing software.To generate this website, I decided to use Jekyll, which is a simple open-source static site generator generally used for blogs and the such.As mentioned earlier, GitHub Pages host static sites only, therefore, WordPress or other similar services will not be compatible, as they require a server running a script simultaneously (i.e., WordPress sites are dynamic). In addition, Jekyll integrates really well with GitHub Pages.For the IDE, I’m using WebStorm from JetBrains. (Please refer to step 7)&amp;nbsp;Download &amp;amp; Installation:"
 
 
-  } ,
+  },
   
   {
 
     "title"    : "EE305 Numerical Methods Notes",
     "url"      : "/course-resources/Numerical-Methods-Notes",
-    "date"     : "2021-06-23 00:23:44 +0300",
+    "date"     : "2021-06-22 14:23:44 -0700",
     "content" : "I took this course in the spring semester of 2020/2021, it was instructed by Dr. Ahmad Ababnah.The notes are in reference S. Chapra and R. Canale’s Numerical Methods for Engineers  and Dr. Ahmad’s notes and lectures.These notes are not free from mistakes, reader discretion is advised. Please contact me if you have any concerns.&amp;nbsp;View below or click here"
 
 
-  } ,
+  },
   
   {
 
     "title"    : "EE450 Communication Systems Transforms &amp; Misc. Equations",
     "url"      : "/course-resources/Comm-Systems-Transforms",
-    "date"     : "2021-06-23 00:11:27 +0300",
+    "date"     : "2021-06-22 14:11:27 -0700",
     "content" : "I took this course in the spring semester of 2020/2021, it was instructed by Dr. Jehad Ababneh.The equations were taken from various sources, such as: WikiBooks Engineering TablesPlease contact me if you have any concerns.&amp;nbsp;View below or click here"
 
 
-  } ,
+  },
   
   {
 
     "title"    : "EE305 Numerical Methods Equations",
     "url"      : "/course-resources/numericalmethodsequations",
-    "date"     : "2021-06-23 00:11:27 +0300",
+    "date"     : "2021-06-22 14:11:27 -0700",
     "content" : "I took this course in the spring semester of 2020/2021, it was instructed by Dr. Ahmad Ababnah.The equations were taken from S. Chapra and R. Canale’s Numerical Methods for Engineers  and Dr. Ahmad’s notes and lectures.Please contact me if you have any concerns.&amp;nbsp;View below or click here"
 
 
-  } ,
+  },
   
   {
 
     "title"    : "EE307 Electromagnetics II Equations",
     "url"      : "/course-resources/EM2-equations",
-    "date"     : "2021-06-22 00:22:14 +0300",
+    "date"     : "2021-06-21 14:22:14 -0700",
     "content" : "I took this course in the spring semester of 2020/2021, it was instructed by Prof. Dr. Nihad Dib.The equations were taken from M. Sadiku’s Elements of Electromagnetics (seventh edition) and Prof. Nihad’s notes and lectures.Please contact me if you have any concerns.&amp;nbsp;View below or click here"
 
 
-  } ,
+  },
   
   {
 
     "title"    : "EE307 Electromagnetics II Notes",
     "url"      : "/course-resources/electromagnetics2",
-    "date"     : "2021-06-22 00:22:13 +0300",
+    "date"     : "2021-06-21 14:22:13 -0700",
     "content" : "I took this course in the spring semester of 2020/2021, it was instructed by Prof. Dr. Nihad Dib.The notes are in reference to M. Sadiku’s Elements of Electromagnetics (seventh edition) and Prof. Nihad’s notes, lectures, past exams, and past quizzes.These notes are not free from mistakes, reader discretion is advised. Please contact me if you have any concerns.&amp;nbsp;View below or click here"
 
 
-  } ,
+  },
   
   {
 
     "title"    : "EE420 Digital Electronic Circuits Notes",
     "url"      : "/course-resources/digital-electronics",
-    "date"     : "2021-06-22 00:08:09 +0300",
+    "date"     : "2021-06-21 14:08:09 -0700",
     "content" : "I took this course in the spring semester of 2020/2021, it was instructed by Prof. Dr. Nedal Al-Ababneh.The notes are in reference K. G. Gopalan’s Introduction to Digital Microelectronic Circuits  and Prof. Nedal’s slides and lectures.These notes are not free from mistakes, reader discretion is advised. Please contact me if you have any concerns.&amp;nbsp;View below or click here"
 
 
-  } ,
+  },
   
   {
 
     "title"    : "Proteus Guide",
     "url"      : "/guides/Proteus",
-    "date"     : "2021-06-22 00:06:14 +0300",
+    "date"     : "2021-06-21 14:06:14 -0700",
     "content" : "I wrote this guide in February 2021 for EE346 Micro Controllers Laboratory. Prof. Dr. Ahmad Abu-El-Haija supervised me in writing it.Please contact me if you have any concerns.&amp;nbsp;View below or click here"
 
 
-  } ,
+  },
   
   {
 
     "title"    : "EE450 Communication Systems Notes",
     "url"      : "/course-resources/communication-systems-notes",
-    "date"     : "2021-06-22 00:03:11 +0300",
+    "date"     : "2021-06-21 14:03:11 -0700",
     "content" : "I took this course in the spring semester of 2020/2021, it was instructed by Dr. Jehad Ababneh.The notes are in reference to J. Proakis and M. Salehi’s Fundamentals of Communication Systems, and Dr. Jehad’s notes, lectures, past exams, and past homeworks.These notes are not free from mistakes, reader discretion is advised. Please contact me if you have any concerns.&amp;nbsp;View below or click here"
 
 
-  } 
-  
+  }
+  ,
 
+  
+  {
+    "title": "Papers",
+    "url": "/papers/",
+    "content": "Published work.2026:Immersion Cooling Fixture for High Power Testing of Planar Microwave Transmission LinesM. Sanad AlTaher,Thomas Weller2025:Direct Contact Liquid Cooling for Thermal Management of Printed Coplanar Waveguide LinesOmer Faruk Firat,M. Sanad AlTaher,Joshua Gess,Thomas Weller2024:Design and Simulation of Square Aperture Multi-hole Legendre Waveguide Directional CouplersMohammad Sanad AlTaher,Nihad Dib,"
+  },
+
+  
+  {
+    "title": "Tools",
+    "url": "/tools/",
+    "content": "Below are tools that I previously developed to help me with my research. Most of those tools were initially created as extensions for simulation programs, but I adapted them to become interactive web tools. If you wish to use them in the simulation programs, you can find a link to the Github repositiories as well.  If you have any concerns, please [contact]({{ site.url }}{{ site.baseurl }}/contact/) me.&amp;nbsp;----&amp;nbsp;Superformula Shapes(GITHUB Repo Coming Soon)&amp;nbsp;----&amp;nbsp;  Trace Similarity(GITHUB Repo Coming Soon)&amp;nbsp;----&amp;nbsp;  "
+  },
+
+  
+  {
+    "title": "About Me",
+    "url": "/about-me/",
+    "content": "My name is Mohammad Sanad AlTaher (Sanad), I am currently in my fourth year as a PhD student at University of Nevada, Reno (Reno, Nevada), working under the supervision of Prof. Tom Weller.I previously studied at Oregon State University(Corvallis, Oregon), where I worked in the Integrated Electronics research group, and focused on electromagnetics. At OSU, I completed three years and passed the qualifying exam for a PhD in electrical and computer engineering; however, I chose to relocate to UNR to continue research with my advisor and at the UNR facilities.Before graduate studies, I obtained my bachelor’s degree in Electrical Engineering from Jordan University of Science and Technology, where Igraduated with a 3.92/4.0 CGPA, ranking 4th in a cohort of 78 students. Additionally, I specializedin Telecommunications and ranked 1st among others who chose this specialization, around half of the EE cohort.During my undergraduate studies, I garnered considerable international experience in entrepreneurship, academics, and research by partaking in the Hult Prize in Dubai in 2019, an Erasmus+ exchange semester in Istanbul in 2021, and a research internship in India in 2022 respectively.    April, 2026, San Francisco.I am mostly interested in Electromagnetics, RF Telecommunications, and applied physics. I hope to work on research in space technology afterobtaining a postgraduate degree in the future.You can access my résumé HEREYou can find my LinkedIn profile HERE"
+  },
+
+  
+  {
+    "title": "Guides &amp; More",
+    "url": "/misc/",
+    "content": "Here, you’ll find guides I prepared, my unpublished research, class projects, and other miscellaneous work.GuidesWebsite Initialization GuideGetting Started with Proteus 8&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;InitializationProteus Guide"
+  }
 ]
+
 

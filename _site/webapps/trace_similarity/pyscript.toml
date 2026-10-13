@@ -1,0 +1,9 @@
+# Packages installed into the browser's Python before main.py runs.
+# Add anything your tools import, e.g. "similaritymeasures".
+packages = ["numpy"]
+
+# Python files copied next to main.py so they can be imported.
+# Add one line per extra tool file, e.g.
+#   "./frechet.py" = "./frechet.py"
+[files]
+"./analysis_tools.py" = "./analysis_tools.py"

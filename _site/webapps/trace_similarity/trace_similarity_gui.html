@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Trace Similarity</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,600;1,400&display=swap">
+
+  <!-- PyScript: check pyscript.net for a newer release and update both lines together. -->
+  <link rel="stylesheet" href="https://pyscript.net/releases/2026.7.1/core.css">
+  <script type="module" src="https://pyscript.net/releases/2026.7.1/core.js"></script>
+
+  <style>
+    :root {
+      color-scheme: light dark;
+      --paper: #f4f6f8;
+      --sheet: #ffffff;
+      --ink: #17222d;
+      --graphite: #5b6875;
+      --rule: #d3dae1;
+      --trace: #1f77b4;
+      --on-trace: #ffffff;
+      --alert: #b3261e;
+      --sans: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+      --mono: "IBM Plex Mono", ui-monospace, "Cascadia Mono", Consolas, monospace;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --paper: #10161c;
+        --sheet: #171f27;
+        --ink: #e4eaf0;
+        --graphite: #93a1af;
+        --rule: #2a3540;
+        --trace: #58a6dc;
+        --on-trace: #0b1218;
+        --alert: #ff8a80;
+      }
+    }
+
+    [hidden] { display: none !important; }
+
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font: 15px/1.45 var(--sans);
+    }
+
+    .app {
+      max-width: 920px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    /* Two columns: controls on the left, output on the right */
+    .workbench {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr);
+      gap: 24px;
+    }
+    @media (min-width: 680px) {
+      .workbench { grid-template-columns: 290px minmax(0, 1fr); gap: 32px; }
+    }
+
+    /* Controls */
+    .controls {
+      display: grid;
+      gap: 18px;
+      align-content: start;
+    }
+    .field {
+      min-width: 0;
+      margin: 0;
+      padding: 0;
+      border: 0;
+    }
+    .field-label {
+      display: block;
+      margin-bottom: 6px;
+      padding: 0;
+      font-size: 0.9rem;
+      font-weight: 600;
+    }
+    .hint {
+      margin: 6px 0 0;
+      font-size: 0.8rem;
+      color: var(--graphite);
+      overflow-wrap: anywhere;
+    }
+
+    .btn {
+      box-sizing: border-box;
+      padding: 8px 12px;
+      border: 1px solid transparent;
+      border-radius: 3px;
+      font: 600 0.9rem var(--sans);
+      text-align: center;
+      cursor: pointer;
+    }
+    .btn-quiet {
+      border-color: var(--rule);
+      background: var(--sheet);
+      color: var(--ink);
+    }
+    .btn-primary {
+      background: var(--trace);
+      color: var(--on-trace);
+    }
+    .btn:disabled,
+    .btn.is-disabled { opacity: 0.6; cursor: progress; }
+
+    .data-actions,
+    .actions {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+    }
+    .data-actions .btn { padding-inline: 6px; white-space: nowrap; }
+    .file-btn { position: relative; }
+    .file-btn input {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      opacity: 0;
+    }
+
+    select {
+      box-sizing: border-box;
+      width: 100%;
+      padding: 7px 8px;
+      border: 1px solid var(--rule);
+      border-radius: 3px;
+      background: var(--sheet);
+      color: var(--ink);
+      font: 0.8rem var(--mono);
+    }
+
+    .test-list {
+      max-height: 150px;
+      overflow: auto;
+      padding: 4px 0;
+      border: 1px solid var(--rule);
+      border-radius: 3px;
+      background: var(--sheet);
+    }
+    .test-list .hint { margin: 4px 10px; }
+    .test {
+      display: flex;
+      align-items: flex-start;
+      gap: 8px;
+      padding: 4px 10px;
+      font: 0.8rem/1.4 var(--mono);
+      overflow-wrap: anywhere;
+      cursor: pointer;
+    }
+    .test input {
+      flex: none;
+      margin: 2px 0 0;
+      accent-color: var(--trace);
+    }
+    .test.is-reference { color: var(--graphite); cursor: default; }
+    .test.is-reference span::after {
+      content: "  (reference)";
+      font-family: var(--sans);
+    }
+
+    .status {
+      min-height: 2.9em;
+      margin: -6px 0 0;
+      font-size: 0.85rem;
+      color: var(--graphite);
+      overflow-wrap: anywhere;
+    }
+    .status.is-error { color: var(--alert); }
+
+    :is(button, select, input):focus-visible,
+    .file-btn:focus-within {
+      outline: 2px solid var(--trace);
+      outline-offset: 2px;
+    }
+
+    /* Output tabs */
+    .tabs {
+      display: flex;
+      gap: 4px;
+      border-bottom: 1px solid var(--rule);
+    }
+    .tabs button {
+      margin-bottom: -1px;
+      padding: 8px 14px;
+      border: 0;
+      border-bottom: 2px solid transparent;
+      background: none;
+      color: var(--graphite);
+      font: 600 0.9rem var(--sans);
+      cursor: pointer;
+    }
+    .tabs button[aria-selected="true"] {
+      color: var(--ink);
+      border-bottom-color: var(--trace);
+    }
+
+    .panel {
+      height: 460px;
+      padding-top: 12px;
+    }
+    .empty {
+      margin: 0;
+      padding: 40px 12px;
+      color: var(--graphite);
+      text-align: center;
+    }
+
+    /* Plot panel: as tall as the chart and its legend need */
+    #panel-plot { height: auto; min-height: 300px; }
+    .plot-box svg {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+    .legend {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px 18px;
+      max-height: 76px;
+      margin: 8px 0 0;
+      padding: 0;
+      overflow: auto;
+      list-style: none;
+      font: 0.78rem/1.4 var(--mono);
+      color: var(--graphite);
+    }
+    .legend li {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      overflow-wrap: anywhere;
+    }
+    .legend i {
+      flex: none;
+      width: 18px;
+      height: 3px;
+      border-radius: 1px;
+    }
+    .legend .is-reference { color: var(--ink); }
+    .legend .is-reference i { height: 4px; background: var(--ink); }
+
+    /* Line chart parts (the SVG itself is built in main.py) */
+    .frame { fill: var(--sheet); stroke: var(--graphite); stroke-width: 1; }
+    .grid  { stroke: var(--rule); stroke-width: 1; stroke-dasharray: 4 3; }
+    .tick-x,
+    .tick-y {
+      fill: var(--graphite);
+      font: 11px var(--mono);
+      dominant-baseline: central;
+    }
+    .tick-x { text-anchor: middle; }
+    .tick-y { text-anchor: end; }
+    .axis-title {
+      fill: var(--graphite);
+      font: 12px var(--sans);
+      text-anchor: middle;
+    }
+    .trace {
+      fill: none;
+      stroke-width: 1.8;
+      stroke-linejoin: round;
+    }
+    .trace.is-reference { stroke: var(--ink); stroke-width: 2.6; }
+
+    /* Results panel */
+    #panel-results { overflow: auto; }
+    #results-table {
+      width: 100%;
+      border-collapse: collapse;
+      font: 0.85rem var(--mono);
+      font-variant-numeric: tabular-nums;
+    }
+    #results-table th,
+    #results-table td {
+      padding: 6px 12px;
+      border-bottom: 1px solid var(--rule);
+      text-align: right;
+      vertical-align: top;
+    }
+    #results-table td { white-space: nowrap; }
+    #results-table th {
+      position: sticky;
+      top: 0;
+      z-index: 1;
+      background: var(--paper);
+      font: 600 0.85rem var(--sans);
+      color: var(--graphite);
+      white-space: nowrap;
+    }
+    /* The Trace column stays in view when many tool columns scroll sideways. */
+    #results-table th:first-child,
+    #results-table td:first-child {
+      position: sticky;
+      left: 0;
+      min-width: 150px;
+      background: var(--paper);
+      text-align: left;
+      white-space: normal;
+      overflow-wrap: anywhere;
+    }
+    #results-table th:first-child { z-index: 2; }
+    #results-table th button {
+      padding: 0;
+      border: 0;
+      background: none;
+      color: inherit;
+      font: inherit;
+      cursor: pointer;
+    }
+    #results-table th[aria-sort="ascending"] button::after  { content: " \2191"; }
+    #results-table th[aria-sort="descending"] button::after { content: " \2193"; }
+    #results-table th[aria-sort="ascending"],
+    #results-table th[aria-sort="descending"] { color: var(--ink); }
+    #results-table td.is-error { color: var(--alert); }
+
+    /* Log panel */
+    #log {
+      box-sizing: border-box;
+      height: 100%;
+      margin: 0;
+      padding: 10px 12px;
+      overflow: auto;
+      border: 1px solid var(--rule);
+      border-radius: 3px;
+      background: var(--sheet);
+      font: 0.8rem/1.55 var(--mono);
+      white-space: pre-wrap;
+      overflow-wrap: anywhere;
+    }
+  </style>
+</head>
+
+<body>
+  <main class="app">
+    <div class="workbench">
+
+      <div class="controls">
+
+        <div class="field">
+          <span class="field-label">Report data</span>
+          <div class="data-actions">
+            <label id="csv-label" class="btn btn-quiet file-btn is-disabled">
+              <input id="csv-file" type="file" accept=".csv,.txt,text/csv,text/plain" disabled>Choose CSV
+            </label>
+            <button id="sample-btn" class="btn btn-quiet" type="button" disabled>Use sample data</button>
+          </div>
+          <p id="data-status" class="hint">A report exported from AEDT as CSV: the x-axis in the first column, then one column per trace.</p>
+        </div>
+
+        <div class="field">
+          <label class="field-label" for="reference">Reference trace</label>
+          <select id="reference" disabled></select>
+        </div>
+
+        <fieldset class="field">
+          <legend class="field-label">Test traces</legend>
+          <div id="test-list" class="test-list">
+            <p class="hint">Load a report to list its traces.</p>
+          </div>
+        </fieldset>
+
+        <div class="actions">
+          <button id="plot-btn" class="btn btn-quiet" type="button" disabled>Plot traces</button>
+          <button id="compute-btn" class="btn btn-primary" type="button" disabled>Compute</button>
+        </div>
+
+        <p id="status" class="status" role="status">Loading the Python runtime. The first visit takes a few seconds.</p>
+      </div>
+
+      <section aria-label="Output">
+        <div class="tabs" role="tablist">
+          <button type="button" role="tab" id="tab-plot" aria-controls="panel-plot" aria-selected="true">Plot</button>
+          <button type="button" role="tab" id="tab-results" aria-controls="panel-results" aria-selected="false" tabindex="-1">Results</button>
+          <button type="button" role="tab" id="tab-log" aria-controls="panel-log" aria-selected="false" tabindex="-1">Log</button>
+        </div>
+
+        <div class="panel" id="panel-plot" role="tabpanel" aria-labelledby="tab-plot">
+          <div id="plot-box" class="plot-box"><p class="empty">Load a report to plot its traces here.</p></div>
+          <ul id="legend" class="legend"></ul>
+        </div>
+
+        <div class="panel" id="panel-results" role="tabpanel" aria-labelledby="tab-results" tabindex="0" hidden>
+          <p id="results-empty" class="empty">Press Compute to compare each test trace with the reference.</p>
+          <table id="results-table" hidden>
+            <thead id="results-head"></thead>
+            <tbody id="results-body"></tbody>
+          </table>
+        </div>
+
+        <div class="panel" id="panel-log" role="tabpanel" aria-labelledby="tab-log" hidden>
+          <pre id="log" tabindex="0">&gt;&gt; Loading the Python runtime...
+</pre>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- Tabs work before Python has loaded, so they are plain JavaScript. -->
+  <script>
+    const tabs = [...document.querySelectorAll('[role="tab"]')];
+
+    function selectTab(tab) {
+      tabs.forEach((t) => {
+        const on = t === tab;
+        t.setAttribute('aria-selected', on);
+        t.tabIndex = on ? 0 : -1;
+        document.getElementById(t.getAttribute('aria-controls')).hidden = !on;
+      });
+    }
+
+    tabs.forEach((tab, i) => {
+      tab.addEventListener('click', () => selectTab(tab));
+      tab.addEventListener('keydown', (e) => {
+        const move = e.key === 'ArrowRight' ? 1 : e.key === 'ArrowLeft' ? -1 : 0;
+        if (!move) return;
+        const next = tabs[(i + move + tabs.length) % tabs.length];
+        next.focus();
+        selectTab(next);
+      });
+    });
+  </script>
+
+  <!--
+    main.py           = GUI logic (port of gui_main.py)
+    analysis_tools.py = the comparison tools (your backend)
+    pyscript.toml     = which packages and extra .py files to load
+  -->
+  <script type="py" src="./main.py" config="./pyscript.toml"></script>
+</body>
+</html>

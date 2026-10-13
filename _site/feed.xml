@@ -1,384 +1,384 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-07-03T16:04:18+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Sanad AlTaher</title><subtitle>Mohammad Sanad AlTaher's personal website intends to host his professional information and public work such as: course notes, guides, papers, and more!</subtitle><entry><title type="html">EE558 Satellite Communication Systems Notes</title><link href="http://localhost:4000/course-resources/satellite-communication-systems" rel="alternate" type="text/html" title="EE558 Satellite Communication Systems Notes" /><published>2023-07-03T00:03:11+03:00</published><updated>2023-07-03T00:03:11+03:00</updated><id>http://localhost:4000/course-resources/satellite-communication-systems</id><content type="html" xml:base="http://localhost:4000/course-resources/satellite-communication-systems">&lt;p&gt;I took this course in the spring semester of 2022/2023, it was instructed by &lt;a href=&quot;https://www.just.edu.jo/eportfolio/Pages/Default.aspx?email=mabbadi&quot;&gt;Prof. Dr. Mansour Abbadi&lt;/a&gt;.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-10-13T10:18:17-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Sanad AlTaher</title><subtitle>Mohammad Sanad AlTaher&apos;s personal website intends to host his professional information and public work such as: course notes, guides, papers, and more!</subtitle><entry><title type="html">EE558 Satellite Communication Systems Notes</title><link href="http://localhost:4000/course-resources/satellite-communication-systems" rel="alternate" type="text/html" title="EE558 Satellite Communication Systems Notes" /><published>2023-07-02T14:03:11-07:00</published><updated>2023-07-02T14:03:11-07:00</updated><id>http://localhost:4000/course-resources/satellite-communication-systems</id><content type="html" xml:base="http://localhost:4000/course-resources/satellite-communication-systems"><![CDATA[<p>I took this course in the spring semester of 2022/2023, it was instructed by <a href="https://www.just.edu.jo/eportfolio/Pages/Default.aspx?email=mabbadi">Prof. Dr. Mansour Abbadi</a>.</p>
 
-&lt;p&gt;The notes are in reference to T. Pratt’s &lt;em&gt;Satellite Communications&lt;/em&gt;, and Prof. Mansour’s notes, lectures, past exams, and past homeworks.&lt;/p&gt;
+<p>The notes are in reference to T. Pratt’s <em>Satellite Communications</em>, and Prof. Mansour’s notes, lectures, past exams, and past homeworks.</p>
 
-&lt;p&gt;These notes are not free from mistakes, reader discretion is advised. Please &lt;a href=&quot;/contact/&quot;&gt;contact&lt;/a&gt; me if you have any concerns.&lt;/p&gt;
+<p>These notes are not free from mistakes, reader discretion is advised. Please <a href="/contact/">contact</a> me if you have any concerns.</p>
 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+<p>&nbsp;</p>
 
-&lt;p style=&quot;text-align:center;&quot;&gt;View below or &lt;a href=&quot;/assets/pdf/ee558_notes.pdf&quot;&gt;
-click here&lt;/a&gt;&lt;/p&gt;
+<p style="text-align:center;">View below or <a href="/assets/pdf/ee558_notes.pdf">
+click here</a></p>
 
-&lt;div style=&quot;text-align: center; margin-top: -10px&quot;&gt;
-&lt;object data=&quot;/assets/pdf/ee558_notes.pdf&quot; width=&quot;100%&quot; height=&quot;1080&quot; type=&quot;application/pdf&quot;&gt;&lt;/object&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="course-resources" /><summary type="html">I took this course in the spring semester of 2022/2023, it was instructed by Prof. Dr. Mansour Abbadi.</summary></entry><entry><title type="html">EE524 RF Communication Circuits Notes</title><link href="http://localhost:4000/course-resources/rf-communication-circuits" rel="alternate" type="text/html" title="EE524 RF Communication Circuits Notes" /><published>2023-07-03T00:03:10+03:00</published><updated>2023-07-03T00:03:10+03:00</updated><id>http://localhost:4000/course-resources/rf-communication-circuits</id><content type="html" xml:base="http://localhost:4000/course-resources/rf-communication-circuits">&lt;p&gt;I took this course in the spring semester of 2022/2023, it was instructed by &lt;a href=&quot;https://www.just.edu.jo/eportfolio/Pages/Default.aspx?email=mabbadi&quot;&gt;Prof. Dr. Mansour Abbadi&lt;/a&gt;.&lt;/p&gt;
+<div style="text-align: center; margin-top: -10px">
+<object data="/assets/pdf/ee558_notes.pdf" width="100%" height="1080" type="application/pdf"></object>
+</div>]]></content><author><name></name></author><category term="course-resources" /><summary type="html"><![CDATA[I took this course in the spring semester of 2022/2023, it was instructed by Prof. Dr. Mansour Abbadi.]]></summary></entry><entry><title type="html">EE524 RF Communication Circuits Notes</title><link href="http://localhost:4000/course-resources/rf-communication-circuits" rel="alternate" type="text/html" title="EE524 RF Communication Circuits Notes" /><published>2023-07-02T14:03:10-07:00</published><updated>2023-07-02T14:03:10-07:00</updated><id>http://localhost:4000/course-resources/rf-communication-circuits</id><content type="html" xml:base="http://localhost:4000/course-resources/rf-communication-circuits"><![CDATA[<p>I took this course in the spring semester of 2022/2023, it was instructed by <a href="https://www.just.edu.jo/eportfolio/Pages/Default.aspx?email=mabbadi">Prof. Dr. Mansour Abbadi</a>.</p>
 
-&lt;p&gt;The notes are in reference to J. Smith’s &lt;em&gt;Modern Communication Circuits&lt;/em&gt;, and Prof. Mansour’s notes, lectures, past exams, and past homeworks.&lt;/p&gt;
+<p>The notes are in reference to J. Smith’s <em>Modern Communication Circuits</em>, and Prof. Mansour’s notes, lectures, past exams, and past homeworks.</p>
 
-&lt;p&gt;These notes are not free from mistakes, reader discretion is advised. Please &lt;a href=&quot;/contact/&quot;&gt;contact&lt;/a&gt; me if you have any concerns.&lt;/p&gt;
+<p>These notes are not free from mistakes, reader discretion is advised. Please <a href="/contact/">contact</a> me if you have any concerns.</p>
 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+<p>&nbsp;</p>
 
-&lt;p style=&quot;text-align:center;&quot;&gt;View below or &lt;a href=&quot;/assets/pdf/EE524_notes.pdf&quot;&gt;
-click here&lt;/a&gt;&lt;/p&gt;
+<p style="text-align:center;">View below or <a href="/assets/pdf/EE524_notes.pdf">
+click here</a></p>
 
-&lt;div style=&quot;text-align: center; margin-top: -10px&quot;&gt;
-&lt;object data=&quot;/assets/pdf/EE524_notes.pdf&quot; width=&quot;100%&quot; height=&quot;1080&quot; type=&quot;application/pdf&quot;&gt;&lt;/object&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="course-resources" /><summary type="html">I took this course in the spring semester of 2022/2023, it was instructed by Prof. Dr. Mansour Abbadi.</summary></entry><entry><title type="html">EE555 Optical Fiber Communication Systems Notes</title><link href="http://localhost:4000/course-resources/optical-fibers-notes" rel="alternate" type="text/html" title="EE555 Optical Fiber Communication Systems Notes" /><published>2023-02-27T00:03:11+03:00</published><updated>2023-02-27T00:03:11+03:00</updated><id>http://localhost:4000/course-resources/optical-fibers-notes</id><content type="html" xml:base="http://localhost:4000/course-resources/optical-fibers-notes">&lt;p&gt;I took this course in the fall semester of 2022/2023, it was instructed by &lt;a href=&quot;https://www.just.edu.jo/eportfolio/Pages/Default.aspx?email=mabbadi&quot;&gt;Prof. Dr. Mansour Abbadi&lt;/a&gt;.&lt;/p&gt;
+<div style="text-align: center; margin-top: -10px">
+<object data="/assets/pdf/EE524_notes.pdf" width="100%" height="1080" type="application/pdf"></object>
+</div>]]></content><author><name></name></author><category term="course-resources" /><summary type="html"><![CDATA[I took this course in the spring semester of 2022/2023, it was instructed by Prof. Dr. Mansour Abbadi.]]></summary></entry><entry><title type="html">EE555 Optical Fiber Communication Systems Notes</title><link href="http://localhost:4000/course-resources/optical-fibers-notes" rel="alternate" type="text/html" title="EE555 Optical Fiber Communication Systems Notes" /><published>2023-02-26T13:03:11-08:00</published><updated>2023-02-26T13:03:11-08:00</updated><id>http://localhost:4000/course-resources/optical-fibers-notes</id><content type="html" xml:base="http://localhost:4000/course-resources/optical-fibers-notes"><![CDATA[<p>I took this course in the fall semester of 2022/2023, it was instructed by <a href="https://www.just.edu.jo/eportfolio/Pages/Default.aspx?email=mabbadi">Prof. Dr. Mansour Abbadi</a>.</p>
 
-&lt;p&gt;The notes are in reference to G. Keiser’s &lt;em&gt;Optical Fiber Communications&lt;/em&gt;, and Prof. Mansour’s notes, lectures, past exams, and past homeworks.&lt;/p&gt;
+<p>The notes are in reference to G. Keiser’s <em>Optical Fiber Communications</em>, and Prof. Mansour’s notes, lectures, past exams, and past homeworks.</p>
 
-&lt;p&gt;These notes are not free from mistakes, reader discretion is advised. Please &lt;a href=&quot;/contact/&quot;&gt;contact&lt;/a&gt; me if you have any concerns.&lt;/p&gt;
+<p>These notes are not free from mistakes, reader discretion is advised. Please <a href="/contact/">contact</a> me if you have any concerns.</p>
 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+<p>&nbsp;</p>
 
-&lt;p style=&quot;text-align:center;&quot;&gt;View below or &lt;a href=&quot;/assets/pdf/ee555_notes.pdf&quot;&gt;
-click here&lt;/a&gt;&lt;/p&gt;
+<p style="text-align:center;">View below or <a href="/assets/pdf/ee555_notes.pdf">
+click here</a></p>
 
-&lt;div style=&quot;text-align: center; margin-top: -10px&quot;&gt;
-&lt;object data=&quot;/assets/pdf/ee555_notes.pdf&quot; width=&quot;100%&quot; height=&quot;1080&quot; type=&quot;application/pdf&quot;&gt;&lt;/object&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="course-resources" /><summary type="html">I took this course in the fall semester of 2022/2023, it was instructed by Prof. Dr. Mansour Abbadi.</summary></entry><entry><title type="html">EE575 Communication Networks Notes</title><link href="http://localhost:4000/course-resources/networks-notes" rel="alternate" type="text/html" title="EE575 Communication Networks Notes" /><published>2023-02-27T00:03:10+03:00</published><updated>2023-02-27T00:03:10+03:00</updated><id>http://localhost:4000/course-resources/networks-notes</id><content type="html" xml:base="http://localhost:4000/course-resources/networks-notes">&lt;p&gt;I took this course in the fall semester of 2022/2023, it was instructed by &lt;a href=&quot;https://www.just.edu.jo/eportfolio/Pages/Default.aspx?email=makhodeir&quot;&gt;Dr. Mahmoud Khodeir&lt;/a&gt;.&lt;/p&gt;
+<div style="text-align: center; margin-top: -10px">
+<object data="/assets/pdf/ee555_notes.pdf" width="100%" height="1080" type="application/pdf"></object>
+</div>]]></content><author><name></name></author><category term="course-resources" /><summary type="html"><![CDATA[I took this course in the fall semester of 2022/2023, it was instructed by Prof. Dr. Mansour Abbadi.]]></summary></entry><entry><title type="html">EE575 Communication Networks Notes</title><link href="http://localhost:4000/course-resources/networks-notes" rel="alternate" type="text/html" title="EE575 Communication Networks Notes" /><published>2023-02-26T13:03:10-08:00</published><updated>2023-02-26T13:03:10-08:00</updated><id>http://localhost:4000/course-resources/networks-notes</id><content type="html" xml:base="http://localhost:4000/course-resources/networks-notes"><![CDATA[<p>I took this course in the fall semester of 2022/2023, it was instructed by <a href="https://www.just.edu.jo/eportfolio/Pages/Default.aspx?email=makhodeir">Dr. Mahmoud Khodeir</a>.</p>
 
-&lt;p&gt;The notes are in reference to B. Forouzan’s &lt;em&gt;Data Communications and Networking&lt;/em&gt;, and Dr. Mahmoud’s lectures and past exams.&lt;/p&gt;
+<p>The notes are in reference to B. Forouzan’s <em>Data Communications and Networking</em>, and Dr. Mahmoud’s lectures and past exams.</p>
 
-&lt;p&gt;These notes are not free from mistakes, reader discretion is advised. Please &lt;a href=&quot;/contact/&quot;&gt;contact&lt;/a&gt; me if you have any concerns.&lt;/p&gt;
+<p>These notes are not free from mistakes, reader discretion is advised. Please <a href="/contact/">contact</a> me if you have any concerns.</p>
 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+<p>&nbsp;</p>
 
-&lt;p style=&quot;text-align:center;&quot;&gt;View below or &lt;a href=&quot;/assets/pdf/ee575_notes.pdf&quot;&gt;
-click here&lt;/a&gt;&lt;/p&gt;
+<p style="text-align:center;">View below or <a href="/assets/pdf/ee575_notes.pdf">
+click here</a></p>
 
-&lt;div style=&quot;text-align: center; margin-top: -10px&quot;&gt;
-&lt;object data=&quot;/assets/pdf/ee575_notes.pdf&quot; width=&quot;100%&quot; height=&quot;1080&quot; type=&quot;application/pdf&quot;&gt;&lt;/object&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="course-resources" /><summary type="html">I took this course in the fall semester of 2022/2023, it was instructed by Dr. Mahmoud Khodeir.</summary></entry><entry><title type="html">EE407 Antennas and Radio Wave Propagation Equations</title><link href="http://localhost:4000/course-resources/EE407-equations" rel="alternate" type="text/html" title="EE407 Antennas and Radio Wave Propagation Equations" /><published>2022-06-19T00:00:00+03:00</published><updated>2022-06-19T00:00:00+03:00</updated><id>http://localhost:4000/course-resources/EE407-equations</id><content type="html" xml:base="http://localhost:4000/course-resources/EE407-equations">&lt;p&gt;I took this course in the spring semester of 2021/2022, it was instructed by &lt;a href=&quot;https://www.just.edu.jo/eportfolio/Pages/Default.aspx?email=majidkh&quot;&gt;Prof. Dr. Majid Khodier&lt;/a&gt;.&lt;/p&gt;
+<div style="text-align: center; margin-top: -10px">
+<object data="/assets/pdf/ee575_notes.pdf" width="100%" height="1080" type="application/pdf"></object>
+</div>]]></content><author><name></name></author><category term="course-resources" /><summary type="html"><![CDATA[I took this course in the fall semester of 2022/2023, it was instructed by Dr. Mahmoud Khodeir.]]></summary></entry><entry><title type="html">EE407 Antennas and Radio Wave Propagation Equations</title><link href="http://localhost:4000/course-resources/EE407-equations" rel="alternate" type="text/html" title="EE407 Antennas and Radio Wave Propagation Equations" /><published>2022-06-19T00:00:00-07:00</published><updated>2022-06-19T00:00:00-07:00</updated><id>http://localhost:4000/course-resources/EE407-equations</id><content type="html" xml:base="http://localhost:4000/course-resources/EE407-equations"><![CDATA[<p>I took this course in the spring semester of 2021/2022, it was instructed by <a href="https://www.just.edu.jo/eportfolio/Pages/Default.aspx?email=majidkh">Prof. Dr. Majid Khodier</a>.</p>
 
-&lt;p&gt;The equations were mainly compiled from Prof. Majid’s notes and lectures, as well as various textbooks such as R. E. Collin’s &lt;em&gt;Antennas and Radio Wave Propagation.&lt;/em&gt;&lt;/p&gt;
+<p>The equations were mainly compiled from Prof. Majid’s notes and lectures, as well as various textbooks such as R. E. Collin’s <em>Antennas and Radio Wave Propagation.</em></p>
 
-&lt;p&gt;Please &lt;a href=&quot;/contact/&quot;&gt;contact&lt;/a&gt; me if you have any concerns.&lt;/p&gt;
+<p>Please <a href="/contact/">contact</a> me if you have any concerns.</p>
 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+<p>&nbsp;</p>
 
-&lt;p style=&quot;text-align:center;&quot;&gt;View below or &lt;a href=&quot;/assets/pdf/EE407_Equations.pdf&quot;&gt;
-click here&lt;/a&gt;&lt;/p&gt;
+<p style="text-align:center;">View below or <a href="/assets/pdf/EE407_Equations.pdf">
+click here</a></p>
 
-&lt;div style=&quot;text-align: center; margin-top: -10px&quot;&gt;
-&lt;object data=&quot;/assets/pdf/EE407_Equations.pdf&quot; width=&quot;100%&quot; height=&quot;1080&quot; type=&quot;application/pdf&quot;&gt;&lt;/object&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="course-resources" /><summary type="html">I took this course in the spring semester of 2021/2022, it was instructed by Prof. Dr. Majid Khodier.</summary></entry><entry><title type="html">EE551 Digital Communications Equations</title><link href="http://localhost:4000/course-resources/EE551-equations" rel="alternate" type="text/html" title="EE551 Digital Communications Equations" /><published>2022-06-14T00:00:00+03:00</published><updated>2022-06-14T00:00:00+03:00</updated><id>http://localhost:4000/course-resources/EE551-equations</id><content type="html" xml:base="http://localhost:4000/course-resources/EE551-equations">&lt;p&gt;I took this course in the spring semester of 2021/2022, it was instructed by &lt;a href=&quot;https://www.just.edu.jo/eportfolio/Pages/Default.aspx?email=ghareeb&quot;&gt;Dr. Ibrahim Ghareeb&lt;/a&gt;.&lt;/p&gt;
+<div style="text-align: center; margin-top: -10px">
+<object data="/assets/pdf/EE407_Equations.pdf" width="100%" height="1080" type="application/pdf"></object>
+</div>]]></content><author><name></name></author><category term="course-resources" /><summary type="html"><![CDATA[I took this course in the spring semester of 2021/2022, it was instructed by Prof. Dr. Majid Khodier.]]></summary></entry><entry><title type="html">EE551 Digital Communications Equations</title><link href="http://localhost:4000/course-resources/EE551-equations" rel="alternate" type="text/html" title="EE551 Digital Communications Equations" /><published>2022-06-14T00:00:00-07:00</published><updated>2022-06-14T00:00:00-07:00</updated><id>http://localhost:4000/course-resources/EE551-equations</id><content type="html" xml:base="http://localhost:4000/course-resources/EE551-equations"><![CDATA[<p>I took this course in the spring semester of 2021/2022, it was instructed by <a href="https://www.just.edu.jo/eportfolio/Pages/Default.aspx?email=ghareeb">Dr. Ibrahim Ghareeb</a>.</p>
 
-&lt;p&gt;The equations were compiled from Dr. Ibrahim’s slides and lectures, as well as J. G. Proakis and M. Salehi’s &lt;em&gt;Fundamentals of Communication Systems.&lt;/em&gt;&lt;/p&gt;
+<p>The equations were compiled from Dr. Ibrahim’s slides and lectures, as well as J. G. Proakis and M. Salehi’s <em>Fundamentals of Communication Systems.</em></p>
 
-&lt;p&gt;Please &lt;a href=&quot;/contact/&quot;&gt;contact&lt;/a&gt; me if you have any concerns.&lt;/p&gt;
+<p>Please <a href="/contact/">contact</a> me if you have any concerns.</p>
 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+<p>&nbsp;</p>
 
-&lt;p style=&quot;text-align:center;&quot;&gt;View below or &lt;a href=&quot;/assets/pdf/EE551_Equations.pdf&quot;&gt;
-click here&lt;/a&gt;&lt;/p&gt;
+<p style="text-align:center;">View below or <a href="/assets/pdf/EE551_Equations.pdf">
+click here</a></p>
 
-&lt;div style=&quot;text-align: center; margin-top: -10px&quot;&gt;
-&lt;object data=&quot;/assets/pdf/EE551_Equations.pdf&quot; width=&quot;100%&quot; height=&quot;1080&quot; type=&quot;application/pdf&quot;&gt;&lt;/object&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="course-resources" /><summary type="html">I took this course in the spring semester of 2021/2022, it was instructed by Dr. Ibrahim Ghareeb.</summary></entry><entry><title type="html">Initialization</title><link href="http://localhost:4000/guides/initialization/" rel="alternate" type="text/html" title="Initialization" /><published>2021-06-24T00:17:08+03:00</published><updated>2021-06-24T00:17:08+03:00</updated><id>http://localhost:4000/guides/initialization</id><content type="html" xml:base="http://localhost:4000/guides/initialization/">&lt;script type=&quot;text/javascript&quot;&gt;
+<div style="text-align: center; margin-top: -10px">
+<object data="/assets/pdf/EE551_Equations.pdf" width="100%" height="1080" type="application/pdf"></object>
+</div>]]></content><author><name></name></author><category term="course-resources" /><summary type="html"><![CDATA[I took this course in the spring semester of 2021/2022, it was instructed by Dr. Ibrahim Ghareeb.]]></summary></entry><entry><title type="html">Initialization</title><link href="http://localhost:4000/guides/initialization/" rel="alternate" type="text/html" title="Initialization" /><published>2021-06-23T14:17:08-07:00</published><updated>2021-06-23T14:17:08-07:00</updated><id>http://localhost:4000/guides/initialization</id><content type="html" xml:base="http://localhost:4000/guides/initialization/"><![CDATA[<script type="text/javascript">
 window.onload = function(){
-    alert(&quot;Guide is currently incomplete.&quot;);
+    alert("Guide is currently incomplete.");
     }
-&lt;/script&gt;
+</script>
 
-&lt;p&gt;Here, I will detail &lt;a href=&quot;#how&quot;&gt;&lt;strong&gt;how&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&quot;#why&quot;&gt;&lt;strong&gt;why&lt;/strong&gt;&lt;/a&gt; I built this site for those who are interested in building one for themselves.&lt;/p&gt;
+<p>Here, I will detail <a href="#how"><strong>how</strong></a> and <a href="#why"><strong>why</strong></a> I built this site for those who are interested in building one for themselves.</p>
 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+<p>&nbsp;</p>
 
-&lt;h1 id=&quot;how&quot;&gt;How?&lt;/h1&gt;
+<h1 id="how">How?</h1>
 
-&lt;p&gt;As a student, using open-source/freeware was a priority. At the time of writing this post (June 24th 2021), I have not paid a single cent for this website, and I am only expecting to pay to renew my domain registration (~20USD/year).&lt;/p&gt;
+<p>As a student, using open-source/freeware was a priority. At the time of writing this post (June 24th 2021), I have not paid a single cent for this website, and I am only expecting to pay to renew my domain registration (~20USD/year).</p>
 
-&lt;p&gt;Unless major changes have been made to the services I used, you should be able to create a completely free website by following the steps outlined below.&lt;/p&gt;
+<p>Unless major changes have been made to the services I used, you should be able to create a completely free website by following the steps outlined below.</p>
 
-&lt;p&gt;As always, feel free to &lt;a href=&quot;/contact/&quot;&gt;reach out&lt;/a&gt; if any issues linger.&lt;/p&gt;
+<p>As always, feel free to <a href="/contact/">reach out</a> if any issues linger.</p>
 
-&lt;p&gt;&lt;em&gt;&lt;strong&gt;Note:&lt;/strong&gt; you don’t need to follow the exact order of the steps, however, this is the order I followed.&lt;/em&gt;&lt;/p&gt;
+<p><em><strong>Note:</strong> you don’t need to follow the exact order of the steps, however, this is the order I followed.</em></p>
 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+<p>&nbsp;</p>
 
-&lt;h2 id=&quot;steps&quot;&gt;Steps:&lt;/h2&gt;
+<h2 id="steps">Steps:</h2>
 
-&lt;h3 id=&quot;setup&quot;&gt;Setup:&lt;/h3&gt;
+<h3 id="setup">Setup:</h3>
 
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Make a &lt;a href=&quot;https://github.com/&quot;&gt;GitHub&lt;/a&gt; account:&lt;/strong&gt;&lt;/p&gt;
+<ol>
+  <li>
+    <p><strong>Make a <a href="https://github.com/">GitHub</a> account:</strong></p>
 
-    &lt;p&gt;Having a GitHub account was essential to me because I chose to host my website on &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt;, which is a free hosting service for &lt;strong&gt;static&lt;/strong&gt; sites.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Registering a domain:&lt;/strong&gt;&lt;/p&gt;
+    <p>Having a GitHub account was essential to me because I chose to host my website on <a href="https://pages.github.com/">GitHub Pages</a>, which is a free hosting service for <strong>static</strong> sites.</p>
+  </li>
+  <li>
+    <p><strong>Registering a domain:</strong></p>
 
-    &lt;p&gt;Another reason why a GitHub account is essential is that if you sign up to GitHub with a student email address (i.e., the email address provided by your institution), you can register a free .me domain for a year on &lt;a href=&quot;https://www.namecheap.com/&quot;&gt;namecheap&lt;/a&gt;.&lt;/p&gt;
+    <p>Another reason why a GitHub account is essential is that if you sign up to GitHub with a student email address (i.e., the email address provided by your institution), you can register a free .me domain for a year on <a href="https://www.namecheap.com/">namecheap</a>.</p>
 
-    &lt;p&gt;&lt;strong&gt;To access all GitHub student benefits (including the free .me domain registration), &lt;a href=&quot;https://education.github.com/pack&quot;&gt;click here&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
+    <p><strong>To access all GitHub student benefits (including the free .me domain registration), <a href="https://education.github.com/pack">click here</a>.</strong></p>
 
-    &lt;p&gt;Mentioning the steps for registering a domain is redundant, as they are easy to follow and are outlined by namecheap or any other domain registry service you choose to use.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Access your domain:&lt;/strong&gt;&lt;/p&gt;
+    <p>Mentioning the steps for registering a domain is redundant, as they are easy to follow and are outlined by namecheap or any other domain registry service you choose to use.</p>
+  </li>
+  <li>
+    <p><strong>Access your domain:</strong></p>
 
-    &lt;p&gt;If you’ve registered your domain to your GitHub account successfully, then going on your domain should show your GitHub username.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Register for cloudflare:&lt;/strong&gt;&lt;/p&gt;
+    <p>If you’ve registered your domain to your GitHub account successfully, then going on your domain should show your GitHub username.</p>
+  </li>
+  <li>
+    <p><strong>Register for cloudflare:</strong></p>
 
-    &lt;p&gt;I found that &lt;a href=&quot;http://cloudflare.com/&quot;&gt;cloudflare&lt;/a&gt; DNS was the most suitable for me. Hence, my next step was to sign up to cloudflare and put my domain on their &lt;a href=&quot;https://www.cloudflare.com/en-gb/plans/free/&quot;&gt;Free Plan&lt;/a&gt;.&lt;/p&gt;
+    <p>I found that <a href="http://cloudflare.com/">cloudflare</a> DNS was the most suitable for me. Hence, my next step was to sign up to cloudflare and put my domain on their <a href="https://www.cloudflare.com/en-gb/plans/free/">Free Plan</a>.</p>
 
-    &lt;p&gt;To setup the DNS records and add cloudflare’s servers, I followed &lt;a href=&quot;https://www.namecheap.com/support/knowledgebase/article.aspx/9607/2210/how-to-set-up-dns-records-for-your-domain-in-cloudflare-account/&quot;&gt;this guide&lt;/a&gt; by namecheap.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
+    <p>To setup the DNS records and add cloudflare’s servers, I followed <a href="https://www.namecheap.com/support/knowledgebase/article.aspx/9607/2210/how-to-set-up-dns-records-for-your-domain-in-cloudflare-account/">this guide</a> by namecheap.</p>
+  </li>
+</ol>
 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+<p>&nbsp;</p>
 
-&lt;h4 id=&quot;interlude-1&quot;&gt;Interlude 1:&lt;/h4&gt;
+<h4 id="interlude-1">Interlude 1:</h4>
 
-&lt;p&gt;Now that you’ve registered for all necessary services, the next steps will be downloading and installing software.&lt;/p&gt;
+<p>Now that you’ve registered for all necessary services, the next steps will be downloading and installing software.</p>
 
-&lt;p&gt;To generate this website, I decided to use &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;, which is a simple open-source static site generator generally used for blogs and the such.&lt;/p&gt;
+<p>To generate this website, I decided to use <a href="https://jekyllrb.com/">Jekyll</a>, which is a simple open-source static site generator generally used for blogs and the such.</p>
 
-&lt;p&gt;As mentioned earlier, GitHub Pages host &lt;strong&gt;static sites only&lt;/strong&gt;, therefore, WordPress or other similar services will not be compatible, as they require a server running a script simultaneously (i.e., WordPress sites are dynamic). In addition, Jekyll integrates really well with GitHub Pages.&lt;/p&gt;
+<p>As mentioned earlier, GitHub Pages host <strong>static sites only</strong>, therefore, WordPress or other similar services will not be compatible, as they require a server running a script simultaneously (i.e., WordPress sites are dynamic). In addition, Jekyll integrates really well with GitHub Pages.</p>
 
-&lt;p&gt;For the IDE, I’m using &lt;em&gt;WebStorm&lt;/em&gt; from &lt;a href=&quot;https://www.jetbrains.com/&quot;&gt;JetBrains&lt;/a&gt;. (Please refer to step 7)&lt;/p&gt;
+<p>For the IDE, I’m using <em>WebStorm</em> from <a href="https://www.jetbrains.com/">JetBrains</a>. (Please refer to step 7)</p>
 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+<p>&nbsp;</p>
 
-&lt;h3 id=&quot;download--installation&quot;&gt;Download &amp;amp; Installation:&lt;/h3&gt;
+<h3 id="download--installation">Download &amp; Installation:</h3>
 
-&lt;ol start=&quot;5&quot;&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Download Jekyll:&lt;/strong&gt;&lt;/p&gt;
+<ol start="5">
+  <li>
+    <p><strong>Download Jekyll:</strong></p>
 
-    &lt;p&gt;Since Jekyll is a Ruby gem, we must download and install a &lt;em&gt;Ruby gems package manager&lt;/em&gt;. If you don’t have the Ruby programming language installed on your computer, you must download it as well.&lt;/p&gt;
+    <p>Since Jekyll is a Ruby gem, we must download and install a <em>Ruby gems package manager</em>. If you don’t have the Ruby programming language installed on your computer, you must download it as well.</p>
 
-    &lt;p&gt;Frankly, this part required the most troubleshooting when I was creating this site. Hopefully it works right away for you!&lt;/p&gt;
+    <p>Frankly, this part required the most troubleshooting when I was creating this site. Hopefully it works right away for you!</p>
 
-    &lt;p&gt;To start, open &lt;a href=&quot;https://rubyinstaller.org/downloads/&quot;&gt;this link&lt;/a&gt; and download the recommended installer, which will be clearly highlighted. If you don’t have Ruby preinstalled, make sure the installer you’re downloading comes with a Devkit.&lt;/p&gt;
+    <p>To start, open <a href="https://rubyinstaller.org/downloads/">this link</a> and download the recommended installer, which will be clearly highlighted. If you don’t have Ruby preinstalled, make sure the installer you’re downloading comes with a Devkit.</p>
 
-    &lt;p&gt;I kept facing an issue where the installer would only install one gem, until I moved the download path and installation path to a folder with no spaces or special characters in its folderpath (e.g., C:\RubyJekyll). Thus, I would recommend downloading and installing in a plain text folder directly in the C drive.&lt;/p&gt;
+    <p>I kept facing an issue where the installer would only install one gem, until I moved the download path and installation path to a folder with no spaces or special characters in its folderpath (e.g., C:\RubyJekyll). Thus, I would recommend downloading and installing in a plain text folder directly in the C drive.</p>
 
-    &lt;p&gt;After the download is complete, launch the installer, accept the licence, &lt;strong&gt;check&lt;/strong&gt; “Add Ruby executables to you PATH” and “Associate .rb and .rbw files with this Ruby installation”. After the installation is complete, &lt;strong&gt;check&lt;/strong&gt; “run ‘ridk install’ to install MSYS2 …..”, then click “Finish”.&lt;/p&gt;
+    <p>After the download is complete, launch the installer, accept the licence, <strong>check</strong> “Add Ruby executables to you PATH” and “Associate .rb and .rbw files with this Ruby installation”. After the installation is complete, <strong>check</strong> “run ‘ridk install’ to install MSYS2 …..”, then click “Finish”.</p>
 
-    &lt;p&gt;If Ruby has been installed successfully, a window similar to that shown in the picture below should appear.&lt;/p&gt;
+    <p>If Ruby has been installed successfully, a window similar to that shown in the picture below should appear.</p>
 
-    &lt;p&gt;&lt;img src=&quot;/assets/img/RubyInstall.png&quot; alt=&quot;RubyInstall&quot; height=&quot;232px&quot; width=&quot;700px&quot; /&gt;&lt;/p&gt;
+    <p><img src="/assets/img/RubyInstall.png" alt="RubyInstall" height="232px" width="700px" /></p>
 
-    &lt;p&gt;Simply type 1, and wait for MSYS2 base installation to finish. After that, install the MSYS2 and MINGW development toolchain by entering 3.&lt;/p&gt;
+    <p>Simply type 1, and wait for MSYS2 base installation to finish. After that, install the MSYS2 and MINGW development toolchain by entering 3.</p>
 
-    &lt;p&gt;Once complete, launch Command Prompt and proceed to the next step&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Install Jekyll:&lt;/strong&gt;&lt;/p&gt;
+    <p>Once complete, launch Command Prompt and proceed to the next step</p>
+  </li>
+  <li>
+    <p><strong>Install Jekyll:</strong></p>
 
-    &lt;p&gt;In cmd, type the following code to make sure Ruby has been successfully installed:&lt;/p&gt;
+    <p>In cmd, type the following code to make sure Ruby has been successfully installed:</p>
 
-    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  ruby -v
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  ruby -v
+</code></pre></div>    </div>
 
-    &lt;p&gt;If the Ruby version is returned, proceed by typing:&lt;/p&gt;
+    <p>If the Ruby version is returned, proceed by typing:</p>
 
-    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  gem -v
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  gem -v
+</code></pre></div>    </div>
 
-    &lt;p&gt;If a number is returned, proceed by typing:&lt;/p&gt;
+    <p>If a number is returned, proceed by typing:</p>
 
-    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  gem install jekyll bundler
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  gem install jekyll bundler
+</code></pre></div>    </div>
 
-    &lt;p&gt;Then wait for it to finish installing.&lt;/p&gt;
+    <p>Then wait for it to finish installing.</p>
 
-    &lt;p&gt;Once the installation is complete, make sure that the number of gems installed is at least 2, as shown in the picture below.&lt;/p&gt;
+    <p>Once the installation is complete, make sure that the number of gems installed is at least 2, as shown in the picture below.</p>
 
-    &lt;p&gt;&lt;img src=&quot;/assets/img/JekyllInstall.png&quot; alt=&quot;JekyllInstall&quot; height=&quot;188px&quot; width=&quot;700px&quot; /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Choose a text editor:&lt;/strong&gt;&lt;/p&gt;
+    <p><img src="/assets/img/JekyllInstall.png" alt="JekyllInstall" height="188px" width="700px" /></p>
+  </li>
+  <li>
+    <p><strong>Choose a text editor:</strong></p>
 
-    &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; before proceeding, you may need to reboot your computer.&lt;/p&gt;
+    <p><strong>Note:</strong> before proceeding, you may need to reboot your computer.</p>
 
-    &lt;p&gt;&lt;a href=&quot;https://www.jetbrains.com/webstorm/&quot;&gt;WebStorm&lt;/a&gt; is the ideal IDE for me. One of the advantages of using JetBrains software is you can easily apply for an education license from &lt;a href=&quot;https://www.jetbrains.com/community/education/#students&quot;&gt;here&lt;/a&gt;, just be sure to use your student email, again.
- Since we are using Jekyll, the IDE will mainly be used for its text editor and syntax checker, integrated terminal, and file organization.&lt;/p&gt;
+    <p><a href="https://www.jetbrains.com/webstorm/">WebStorm</a> is the ideal IDE for me. One of the advantages of using JetBrains software is you can easily apply for an education license from <a href="https://www.jetbrains.com/community/education/#students">here</a>, just be sure to use your student email, again.
+ Since we are using Jekyll, the IDE will mainly be used for its text editor and syntax checker, integrated terminal, and file organization.</p>
 
-    &lt;p&gt;If you decide to use WebStorm, make sure the terminal it’s using is cmd by pressing Ctrl+Alt+S, select tools then terminal, now confirm that the Shell path directs to cmd.exe.&lt;/p&gt;
+    <p>If you decide to use WebStorm, make sure the terminal it’s using is cmd by pressing Ctrl+Alt+S, select tools then terminal, now confirm that the Shell path directs to cmd.exe.</p>
 
-    &lt;p&gt;To make sure everything is working run the&lt;/p&gt;
+    <p>To make sure everything is working run the</p>
 
-    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  jekyll -v
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  jekyll -v
+</code></pre></div>    </div>
 
-    &lt;p&gt;Command once again in the IDE’s terminal and confirm that it returns the Jekyll version.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Create a folder for your site and serve:&lt;/strong&gt;&lt;/p&gt;
+    <p>Command once again in the IDE’s terminal and confirm that it returns the Jekyll version.</p>
+  </li>
+  <li>
+    <p><strong>Create a folder for your site and serve:</strong></p>
 
-    &lt;p&gt;All that’s left in this part is to create a folder for your site data to be stored in.&lt;/p&gt;
+    <p>All that’s left in this part is to create a folder for your site data to be stored in.</p>
 
-    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  jekyll new folder_name
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  jekyll new folder_name
+</code></pre></div>    </div>
 
-    &lt;p&gt;A new folder should have been created in C:\Users\current_user\ with a few default files.&lt;/p&gt;
+    <p>A new folder should have been created in C:\Users\current_user\ with a few default files.</p>
 
-    &lt;p&gt;Next, change the terminal to the folder’s directory by entering&lt;/p&gt;
+    <p>Next, change the terminal to the folder’s directory by entering</p>
 
-    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;   C:\users\user_name\folder_namer
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>   C:\users\user_name\folder_namer
+</code></pre></div>    </div>
 
-    &lt;p&gt;in the terminal.&lt;/p&gt;
+    <p>in the terminal.</p>
 
-    &lt;p&gt;Finally, you can serve your site by typing&lt;/p&gt;
+    <p>Finally, you can serve your site by typing</p>
 
-    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  bundle exec jekyll serve
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  bundle exec jekyll serve
+</code></pre></div>    </div>
 
-    &lt;p&gt;Which will start a site on port 4000 of your localhost (i.e., &lt;strong&gt;http://127.0.0.1:4000/&lt;/strong&gt; should be returned in the terminal), then you can access the default website from any browser.&lt;/p&gt;
+    <p>Which will start a site on port 4000 of your localhost (i.e., <strong>http://127.0.0.1:4000/</strong> should be returned in the terminal), then you can access the default website from any browser.</p>
 
-    &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt;
-Before serving your site for the first time, you may need to run&lt;/p&gt;
+    <p><strong>Note:</strong>
+Before serving your site for the first time, you may need to run</p>
 
-    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  bundle install
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  bundle install
+</code></pre></div>    </div>
 
-    &lt;p&gt;Also, after serving your site for the first time, you can simply enter&lt;/p&gt;
+    <p>Also, after serving your site for the first time, you can simply enter</p>
 
-    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  jekyll serve
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  jekyll serve
+</code></pre></div>    </div>
 
-    &lt;p&gt;To server any changes you made or otherwise.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
+    <p>To server any changes you made or otherwise.</p>
+  </li>
+</ol>
 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+<p>&nbsp;</p>
 
-&lt;h4 id=&quot;interlude-2&quot;&gt;Interlude 2:&lt;/h4&gt;
+<h4 id="interlude-2">Interlude 2:</h4>
 
-&lt;p&gt;Now that you’ve generated your static site, the next steps will cover the basics of editing the local site.&lt;/p&gt;
+<p>Now that you’ve generated your static site, the next steps will cover the basics of editing the local site.</p>
 
-&lt;p&gt;Please note that I will not cover text formatting. For its simplicity, I generally use markdown for writing posts. Markdown is a text-to-HTML conversion tool. Basic text formatting with markdown can be found &lt;a href=&quot;https://www.markdownguide.org/basic-syntax/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+<p>Please note that I will not cover text formatting. For its simplicity, I generally use markdown for writing posts. Markdown is a text-to-HTML conversion tool. Basic text formatting with markdown can be found <a href="https://www.markdownguide.org/basic-syntax/">here</a>.</p>
 
-&lt;p&gt;Additionally, I found that markdown is quite beginner-friendly and, in a way, incentivizes users to learn basic HTML since it can easily be used in markdown files, as I will show in step n.&lt;/p&gt;
+<p>Additionally, I found that markdown is quite beginner-friendly and, in a way, incentivizes users to learn basic HTML since it can easily be used in markdown files, as I will show in step n.</p>
 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+<p>&nbsp;</p>
 
-&lt;h3 id=&quot;editing-a-local-site&quot;&gt;Editing a local site:&lt;/h3&gt;
+<h3 id="editing-a-local-site">Editing a local site:</h3>
 
-&lt;ol start=&quot;9&quot;&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Front matter&lt;/strong&gt;&lt;/p&gt;
+<ol start="9">
+  <li>
+    <p><strong>Front matter</strong></p>
 
-    &lt;p&gt;permalinks, layouts, defaults, etc&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Creating posts:&lt;/strong&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Creating pages:&lt;/strong&gt;&lt;/p&gt;
+    <p>permalinks, layouts, defaults, etc</p>
+  </li>
+  <li>
+    <p><strong>Creating posts:</strong></p>
+  </li>
+  <li>
+    <p><strong>Creating pages:</strong></p>
 
-    &lt;p&gt;pages.md files&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Changing page structure:&lt;/strong&gt;&lt;/p&gt;
+    <p>pages.md files</p>
+  </li>
+  <li>
+    <p><strong>Changing page structure:</strong></p>
 
-    &lt;p&gt;changing&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Themes&lt;/strong&gt;&lt;/p&gt;
+    <p>changing</p>
+  </li>
+  <li>
+    <p><strong>Themes</strong></p>
 
-    &lt;p&gt;As for the theme, I chose to stick to the default theme (&lt;em&gt;minima&lt;/em&gt;). If you wish to change the theme, you may search for different themes &lt;a href=&quot;https://rubygems.org/&quot;&gt;here&lt;/a&gt; by typing&lt;/p&gt;
+    <p>As for the theme, I chose to stick to the default theme (<em>minima</em>). If you wish to change the theme, you may search for different themes <a href="https://rubygems.org/">here</a> by typing</p>
 
-    &lt;blockquote&gt;
-      &lt;p&gt;jekyll-theme&lt;/p&gt;
-    &lt;/blockquote&gt;
+    <blockquote>
+      <p>jekyll-theme</p>
+    </blockquote>
 
-    &lt;p&gt;After clicking on a theme, you can navigate to &lt;em&gt;links&lt;/em&gt;, and click on &lt;em&gt;homepage&lt;/em&gt;. Scroll down the git repository and find the preview link. Once you find a theme you like, copy its name, which will be similar to&lt;/p&gt;
+    <p>After clicking on a theme, you can navigate to <em>links</em>, and click on <em>homepage</em>. Scroll down the git repository and find the preview link. Once you find a theme you like, copy its name, which will be similar to</p>
 
-    &lt;blockquote&gt;
-      &lt;p&gt;jekyll-theme-[name]&lt;/p&gt;
-    &lt;/blockquote&gt;
+    <blockquote>
+      <p>jekyll-theme-[name]</p>
+    </blockquote>
 
-    &lt;p&gt;Next, open your Gemfile and add&lt;/p&gt;
+    <p>Next, open your Gemfile and add</p>
 
-    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; gem &quot;jekyll-theme-[name]&quot;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> gem "jekyll-theme-[name]"
+</code></pre></div>    </div>
 
-    &lt;p&gt;beneath the &lt;em&gt;minima&lt;/em&gt; line.
-Now you must install the theme by running the&lt;/p&gt;
+    <p>beneath the <em>minima</em> line.
+Now you must install the theme by running the</p>
 
-    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; bundle install
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> bundle install
+</code></pre></div>    </div>
 
-    &lt;p&gt;command in your terminal.&lt;/p&gt;
+    <p>command in your terminal.</p>
 
-    &lt;p&gt;Once the theme is installed, paste your theme’s name in place of &lt;em&gt;minima&lt;/em&gt; in your _config.yml file, the theme line should be similar to&lt;/p&gt;
+    <p>Once the theme is installed, paste your theme’s name in place of <em>minima</em> in your _config.yml file, the theme line should be similar to</p>
 
-    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; theme: jekyll-theme-[name]
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> theme: jekyll-theme-[name]
+</code></pre></div>    </div>
 
-    &lt;p&gt;Finally, run the&lt;/p&gt;
+    <p>Finally, run the</p>
 
-    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; bundle exec jekyll serve
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> bundle exec jekyll serve
+</code></pre></div>    </div>
 
-    &lt;p&gt;command in the terminal and your site should be using the new theme so long as you’re using compatible layouts.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;General HTML:&lt;/strong&gt;&lt;/p&gt;
+    <p>command in the terminal and your site should be using the new theme so long as you’re using compatible layouts.</p>
+  </li>
+  <li>
+    <p><strong>General HTML:</strong></p>
 
-    &lt;p&gt;Adding objects: pdfs, etc.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
+    <p>Adding objects: pdfs, etc.</p>
+  </li>
+</ol>
 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+<p>&nbsp;</p>
 
-&lt;h4 id=&quot;interlude-3&quot;&gt;Interlude 3:&lt;/h4&gt;
+<h4 id="interlude-3">Interlude 3:</h4>
 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+<p>&nbsp;</p>
 
-&lt;h3 id=&quot;moving-your-site-to-your-public-domain&quot;&gt;Moving your site to your public domain:&lt;/h3&gt;
+<h3 id="moving-your-site-to-your-public-domain">Moving your site to your public domain:</h3>
 
-&lt;ol start=&quot;15&quot;&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Create a GitHub repository for your site:&lt;/strong&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Changing your static site’s URL:&lt;/strong&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Pushing your site to your GitHub repository:&lt;/strong&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Applying any new changes:&lt;/strong&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
+<ol start="15">
+  <li>
+    <p><strong>Create a GitHub repository for your site:</strong></p>
+  </li>
+  <li>
+    <p><strong>Changing your static site’s URL:</strong></p>
+  </li>
+  <li>
+    <p><strong>Pushing your site to your GitHub repository:</strong></p>
+  </li>
+  <li>
+    <p><strong>Applying any new changes:</strong></p>
+  </li>
+</ol>
 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+<p>&nbsp;</p>
 
-&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion:&lt;/h2&gt;
+<h2 id="conclusion">Conclusion:</h2>
 
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt; or you can &lt;a href=&quot;/contact/&quot;&gt;contact&lt;/a&gt; me personally.&lt;/p&gt;
+<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a> or you can <a href="/contact/">contact</a> me personally.</p>
 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;hr /&gt;
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+<p>&nbsp;</p>
+<hr />
+<hr />
+<p>&nbsp;</p>
 
-&lt;h1 id=&quot;why&quot;&gt;Why?&lt;/h1&gt;
+<h1 id="why">Why?</h1>
 
-&lt;p&gt;The core reason for why I built this site is I wanted to learn a new skill. However, the reasons listed below were motives as well.&lt;/p&gt;
+<p>The core reason for why I built this site is I wanted to learn a new skill. However, the reasons listed below were motives as well.</p>
 
-&lt;h4 id=&quot;reasons&quot;&gt;Reasons:&lt;/h4&gt;
-&lt;ul&gt;
-  &lt;li&gt;Allows me to easily access my work.&lt;/li&gt;
-  &lt;li&gt;Allows students easy access to my work.&lt;/li&gt;
-  &lt;li&gt;Showcases my work to prospective employers or colleagues.&lt;/li&gt;
-&lt;/ul&gt;
+<h4 id="reasons">Reasons:</h4>
+<ul>
+  <li>Allows me to easily access my work.</li>
+  <li>Allows students easy access to my work.</li>
+  <li>Showcases my work to prospective employers or colleagues.</li>
+</ul>
 
-&lt;p&gt;There are many other reasons, but these are the main ones I considered.&lt;/p&gt;
+<p>There are many other reasons, but these are the main ones I considered.</p>
 
-&lt;p style=&quot;color:seagreen&quot;&gt;&lt;em&gt;It's my belief that a person who has acquired knowledge has a duty to push forth that knowledge and reduce the barriers of gaining it for others.&lt;/em&gt;&lt;/p&gt;
+<p style="color:seagreen"><em>It's my belief that a person who has acquired knowledge has a duty to push forth that knowledge and reduce the barriers of gaining it for others.</em></p>
 
-&lt;style&gt;
+<style>
 
 
 .plaintext {
@@ -388,43 +388,43 @@ Now you must install the theme by running the&lt;/p&gt;
 }
 
 
-&lt;/style&gt;</content><author><name>Sanad</name></author><summary type="html"></summary></entry><entry><title type="html">EE305 Numerical Methods Notes</title><link href="http://localhost:4000/course-resources/Numerical-Methods-Notes" rel="alternate" type="text/html" title="EE305 Numerical Methods Notes" /><published>2021-06-23T00:23:44+03:00</published><updated>2021-06-23T00:23:44+03:00</updated><id>http://localhost:4000/course-resources/Numerical-Methods-Notes</id><content type="html" xml:base="http://localhost:4000/course-resources/Numerical-Methods-Notes">&lt;p&gt;I took this course in the spring semester of 2020/2021, it was instructed by &lt;a href=&quot;https://www.just.edu.jo/eportfolio/Pages/Default.aspx?email=aaababnah&quot;&gt;Dr. Ahmad Ababnah&lt;/a&gt;.&lt;/p&gt;
+</style>]]></content><author><name>Sanad</name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">EE305 Numerical Methods Notes</title><link href="http://localhost:4000/course-resources/Numerical-Methods-Notes" rel="alternate" type="text/html" title="EE305 Numerical Methods Notes" /><published>2021-06-22T14:23:44-07:00</published><updated>2021-06-22T14:23:44-07:00</updated><id>http://localhost:4000/course-resources/Numerical-Methods-Notes</id><content type="html" xml:base="http://localhost:4000/course-resources/Numerical-Methods-Notes"><![CDATA[<p>I took this course in the spring semester of 2020/2021, it was instructed by <a href="https://www.just.edu.jo/eportfolio/Pages/Default.aspx?email=aaababnah">Dr. Ahmad Ababnah</a>.</p>
 
-&lt;p&gt;The notes are in reference S. Chapra and R. Canale’s &lt;em&gt;Numerical Methods for Engineers&lt;/em&gt;  and Dr. Ahmad’s notes and lectures.&lt;/p&gt;
+<p>The notes are in reference S. Chapra and R. Canale’s <em>Numerical Methods for Engineers</em>  and Dr. Ahmad’s notes and lectures.</p>
 
-&lt;p&gt;These notes are not free from mistakes, reader discretion is advised. Please &lt;a href=&quot;/contact/&quot;&gt;contact&lt;/a&gt; me if you have any concerns.&lt;/p&gt;
+<p>These notes are not free from mistakes, reader discretion is advised. Please <a href="/contact/">contact</a> me if you have any concerns.</p>
 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+<p>&nbsp;</p>
 
-&lt;p style=&quot;text-align:center;&quot;&gt;View below or &lt;a href=&quot;/assets/pdf/NumericalMethodsNotes.pdf&quot;&gt;
-click here&lt;/a&gt;&lt;/p&gt;
+<p style="text-align:center;">View below or <a href="/assets/pdf/NumericalMethodsNotes.pdf">
+click here</a></p>
 
-&lt;div style=&quot;text-align: center; margin-top: -10px&quot;&gt;
-&lt;object data=&quot;/assets/pdf/NumericalMethodsNotes.pdf&quot; width=&quot;100%&quot; height=&quot;1080&quot; type=&quot;application/pdf&quot;&gt;&lt;/object&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="course-resources" /><summary type="html">I took this course in the spring semester of 2020/2021, it was instructed by Dr. Ahmad Ababnah.</summary></entry><entry><title type="html">EE305 Numerical Methods Equations</title><link href="http://localhost:4000/course-resources/numericalmethodsequations" rel="alternate" type="text/html" title="EE305 Numerical Methods Equations" /><published>2021-06-23T00:11:27+03:00</published><updated>2021-06-23T00:11:27+03:00</updated><id>http://localhost:4000/course-resources/numericalmethodsequations</id><content type="html" xml:base="http://localhost:4000/course-resources/numericalmethodsequations">&lt;p&gt;I took this course in the spring semester of 2020/2021, it was instructed by &lt;a href=&quot;https://www.just.edu.jo/eportfolio/Pages/Default.aspx?email=aaababnah&quot;&gt;Dr. Ahmad Ababnah&lt;/a&gt;.&lt;/p&gt;
+<div style="text-align: center; margin-top: -10px">
+<object data="/assets/pdf/NumericalMethodsNotes.pdf" width="100%" height="1080" type="application/pdf"></object>
+</div>]]></content><author><name></name></author><category term="course-resources" /><summary type="html"><![CDATA[I took this course in the spring semester of 2020/2021, it was instructed by Dr. Ahmad Ababnah.]]></summary></entry><entry><title type="html">EE305 Numerical Methods Equations</title><link href="http://localhost:4000/course-resources/numericalmethodsequations" rel="alternate" type="text/html" title="EE305 Numerical Methods Equations" /><published>2021-06-22T14:11:27-07:00</published><updated>2021-06-22T14:11:27-07:00</updated><id>http://localhost:4000/course-resources/numericalmethodsequations</id><content type="html" xml:base="http://localhost:4000/course-resources/numericalmethodsequations"><![CDATA[<p>I took this course in the spring semester of 2020/2021, it was instructed by <a href="https://www.just.edu.jo/eportfolio/Pages/Default.aspx?email=aaababnah">Dr. Ahmad Ababnah</a>.</p>
 
-&lt;p&gt;The equations were taken from S. Chapra and R. Canale’s &lt;em&gt;Numerical Methods for Engineers&lt;/em&gt;  and Dr. Ahmad’s notes and lectures.&lt;/p&gt;
+<p>The equations were taken from S. Chapra and R. Canale’s <em>Numerical Methods for Engineers</em>  and Dr. Ahmad’s notes and lectures.</p>
 
-&lt;p&gt;Please &lt;a href=&quot;/contact/&quot;&gt;contact&lt;/a&gt; me if you have any concerns.&lt;/p&gt;
+<p>Please <a href="/contact/">contact</a> me if you have any concerns.</p>
 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+<p>&nbsp;</p>
 
-&lt;p style=&quot;text-align:center;&quot;&gt;View below or &lt;a href=&quot;/assets/pdf/NumericalMethodsEquations.pdf&quot;&gt;
-click here&lt;/a&gt;&lt;/p&gt;
+<p style="text-align:center;">View below or <a href="/assets/pdf/NumericalMethodsEquations.pdf">
+click here</a></p>
 
-&lt;div style=&quot;text-align: center; margin-top: -10px&quot;&gt;
-&lt;object data=&quot;/assets/pdf/NumericalMethodsEquations.pdf&quot; width=&quot;100%&quot; height=&quot;1080&quot; type=&quot;application/pdf&quot;&gt;&lt;/object&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="course-resources" /><summary type="html">I took this course in the spring semester of 2020/2021, it was instructed by Dr. Ahmad Ababnah.</summary></entry><entry><title type="html">EE450 Communication Systems Transforms &amp;amp; Misc. Equations</title><link href="http://localhost:4000/course-resources/Comm-Systems-Transforms" rel="alternate" type="text/html" title="EE450 Communication Systems Transforms &amp;amp; Misc. Equations" /><published>2021-06-23T00:11:27+03:00</published><updated>2021-06-23T00:11:27+03:00</updated><id>http://localhost:4000/course-resources/Comm-Systems-Transforms</id><content type="html" xml:base="http://localhost:4000/course-resources/Comm-Systems-Transforms">&lt;p&gt;I took this course in the spring semester of 2020/2021, it was instructed by &lt;a href=&quot;https://www.just.edu.jo/eportfolio/Pages/Default.aspx?email=ababnehj&quot;&gt;Dr. Jehad Ababneh&lt;/a&gt;.&lt;/p&gt;
+<div style="text-align: center; margin-top: -10px">
+<object data="/assets/pdf/NumericalMethodsEquations.pdf" width="100%" height="1080" type="application/pdf"></object>
+</div>]]></content><author><name></name></author><category term="course-resources" /><summary type="html"><![CDATA[I took this course in the spring semester of 2020/2021, it was instructed by Dr. Ahmad Ababnah.]]></summary></entry><entry><title type="html">EE450 Communication Systems Transforms &amp;amp; Misc. Equations</title><link href="http://localhost:4000/course-resources/Comm-Systems-Transforms" rel="alternate" type="text/html" title="EE450 Communication Systems Transforms &amp;amp; Misc. Equations" /><published>2021-06-22T14:11:27-07:00</published><updated>2021-06-22T14:11:27-07:00</updated><id>http://localhost:4000/course-resources/Comm-Systems-Transforms</id><content type="html" xml:base="http://localhost:4000/course-resources/Comm-Systems-Transforms"><![CDATA[<p>I took this course in the spring semester of 2020/2021, it was instructed by <a href="https://www.just.edu.jo/eportfolio/Pages/Default.aspx?email=ababnehj">Dr. Jehad Ababneh</a>.</p>
 
-&lt;p&gt;The equations were taken from various sources, such as: &lt;a href=&quot;https://en.wikibooks.org/wiki/Engineering_Tables&quot;&gt;WikiBooks Engineering Tables&lt;/a&gt;&lt;/p&gt;
+<p>The equations were taken from various sources, such as: <a href="https://en.wikibooks.org/wiki/Engineering_Tables">WikiBooks Engineering Tables</a></p>
 
-&lt;p&gt;Please &lt;a href=&quot;/contact/&quot;&gt;contact&lt;/a&gt; me if you have any concerns.&lt;/p&gt;
+<p>Please <a href="/contact/">contact</a> me if you have any concerns.</p>
 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+<p>&nbsp;</p>
 
-&lt;p style=&quot;text-align:center;&quot;&gt;View below or &lt;a href=&quot;/assets/pdf/CommSystemsTransformsMiscEqs.pdf&quot;&gt;
-click here&lt;/a&gt;&lt;/p&gt;
+<p style="text-align:center;">View below or <a href="/assets/pdf/CommSystemsTransformsMiscEqs.pdf">
+click here</a></p>
 
-&lt;div style=&quot;text-align: center; margin-top: -10px&quot;&gt;
-&lt;object data=&quot;/assets/pdf/CommSystemsTransformsMiscEqs.pdf&quot; width=&quot;100%&quot; height=&quot;1080&quot; type=&quot;application/pdf&quot;&gt;&lt;/object&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="course-resources" /><summary type="html">I took this course in the spring semester of 2020/2021, it was instructed by Dr. Jehad Ababneh.</summary></entry></feed>
+<div style="text-align: center; margin-top: -10px">
+<object data="/assets/pdf/CommSystemsTransformsMiscEqs.pdf" width="100%" height="1080" type="application/pdf"></object>
+</div>]]></content><author><name></name></author><category term="course-resources" /><summary type="html"><![CDATA[I took this course in the spring semester of 2020/2021, it was instructed by Dr. Jehad Ababneh.]]></summary></entry></feed>

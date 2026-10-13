@@ -1,7 +1,7 @@
 ---
 layout: articles
-title: "Course Resources"
-permalink: /course-resources/
+title: "Courses"
+permalink: /courses/
 ---
 
 

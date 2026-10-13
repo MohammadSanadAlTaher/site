@@ -48,6 +48,8 @@ defaults:
 
 header_pages:
   - about.markdown
+  - papers.md
+  - tools.md
   - course-notes.md
   - guides.md
   - zcontact.md

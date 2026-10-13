@@ -10,8 +10,36 @@
     "content" : "{{ post.content | strip_html | strip_newlines | truncatewords: 400, "" | rstrip | lstrip | escape }}"
 
 
-  } {% unless forloop.last %},{% endunless %}
-  {% endfor %}
+  }{% unless forloop.last %},{% endunless %}
+  {% endfor %},
 
+  {% assign papers = site.pages | where: "url", "/papers/" | first %}
+  {
+    "title": "{{ papers.title | escape }}",
+    "url": "/papers/",
+    "content": "{{ papers.content | strip_html | strip_newlines | escape }}"
+  },
+
+  {% assign tools = site.pages | where: "url", "/tools/" | first %}
+  {
+    "title": "{{ tools.title | escape }}",
+    "url": "/tools/",
+    "content": "{{ tools.content | strip_html | strip_newlines | escape }}"
+  },
+
+  {% assign about = site.pages | where: "url", "/about-me/" | first %}
+  {
+    "title": "{{ about.title | escape }}",
+    "url": "/about-me/",
+    "content": "{{ about.content | strip_html | strip_newlines | escape }}"
+  },
+
+  {% assign misc = site.pages | where: "url", "/misc/" | first %}
+  {
+    "title": "{{ misc.title | escape }}",
+    "url": "/misc/",
+    "content": "{{ misc.content | strip_html | strip_newlines | escape }}"
+  }
 ]
+
 

@@ -311,6 +311,10 @@ html[data-theme="dark"]  {
       filter: contrast(200%) brightness(130%);
       transition: 0.1s ease-in-out;
     }
+
+    &:has(strong) {
+      filter: brightness(130%) drop-shadow(1px 1px 10px $brand-color-dark); 
+    }
   }
 
 
@@ -318,6 +322,10 @@ html[data-theme="dark"]  {
     border-left: 4px solid $brand-color-dark;
   }
 
+  
+  .web-tool {
+    border-left: 4px solid $brand-color-dark;
+  }
   /*
  * Contact
  */
@@ -382,9 +390,22 @@ html[data-theme="dark"]  {
     color: $dark-text-color;
   }
 
+  .accordion__title:hover {
+  color: white;
+  transition: 0.1s all ease-in-out;
+  opacity: 1;
+  filter: brightness(1000);
+  text-shadow: -.25px -.25px 0 white,
+  .25px .25px white;
+  opacity: 1;
+  filter: contrast(200%) brightness(130%);
 }
 
+  .pdf-frame {
+    border-left: 4px solid $brand-color-dark;
+  }
 
+}
 
 
 

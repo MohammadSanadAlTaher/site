@@ -144,6 +144,36 @@ code {
 }
 
 
+.web-tool {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  overflow-x: auto;
+  position: relative;
+  background: #F8F8F2;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  page-break-inside: avoid;
+  font-size: 0px;
+  line-height: 2;
+  margin-bottom: 1em;
+  max-width: 100%;
+  overflow: auto;
+  padding: 1em 1em;
+  max-height: 800px;
+  height: fit-content;
+
+  iframe {
+    width: 100%;
+    height: fit-content;
+    min-height: 320px;
+    border: 0;
+  }
+
+}
+
 pre {
   overflow-x: auto;
   position: relative;
@@ -289,4 +319,41 @@ table {
   overflow: hidden;
 }
 
+.accordion {
+  display: grid;
+  grid-template-rows: min-content 0fr;
+  transition: grid-template-rows 0.4s ease-in-out;
+}
 
+.accordion--toggle {
+  grid-template-rows: min-content 1fr; 
+}
+
+.accordion__dropdown {
+  overflow: hidden;
+}
+
+.accordion__title {
+  cursor: pointer;
+}
+
+
+.pdf-frame {
+  text-align: center; 
+  margin-top: -10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  overflow-x: auto;
+  position: relative;
+  background: #F8F8F2;
+  border-radius: 12px;
+  page-break-inside: avoid;
+  font-size: 0px;
+  line-height: 2;
+  margin-bottom: 1em;
+  max-width: 100%;
+  overflow: auto;
+  padding: 1em 1em;
+}
