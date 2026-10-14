@@ -82,7 +82,7 @@
     .formula msup > :last-child mfrac > * { font-size: 0.85em; }
 
     @media (min-width: 640px) {
-      .workbench { grid-template-columns: 260px minmax(0, 1fr); gap: 32px; }
+      .workbench { grid-template-columns: 340px minmax(0, 1fr); gap: 32px; }
     }
 
     /* Parameters */
@@ -124,6 +124,40 @@
       font: 500 0.95rem var(--mono);
     }
     .param input[aria-invalid="true"] { border-color: var(--alert); }
+    /* Calculated value: same box, but visibly not editable. */
+    .param input[readonly] {
+      background: transparent;
+      border-style: dashed;
+      color: var(--graphite);
+    }
+
+    /* Rotation: a slider and a number box that stay in step. */
+    .rotate { grid-column: 1 / -1; }
+    .rotate label {
+      display: block;
+      margin-bottom: 4px;
+    }
+    .rotate-controls {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .rotate input[type="range"] {
+      flex: 1;
+      min-width: 0;
+      margin: 0;
+      accent-color: var(--trace);
+    }
+    .rotate input[type="number"] {
+      box-sizing: border-box;
+      width: 68px;
+      padding: 7px 8px;
+      border: 1px solid var(--rule);
+      border-radius: 3px;
+      background: var(--sheet);
+      color: var(--ink);
+      font: 500 0.95rem var(--mono);
+    }
 
     .plot-btn {
       grid-column: 1 / -1;
@@ -293,8 +327,16 @@
             <input id="p-r_t" type="number" inputmode="decimal" value="5" step="0.5">
           </div>
           <div class="param">
-            <label for="p-p_th"><span><var>p</var><sub>th</sub></span></label>
-            <input id="p-p_th" type="number" inputmode="decimal" value="0.018" step="0.01">
+            <label for="p-sf_c"><span><var>r</var><sub>t</sub>&thinsp;/&thinsp;max(<var>r</var>(&#x3C6;))</span></label>
+            <input id="p-sf_c" type="text" readonly tabindex="-1" value="">
+          </div>
+
+          <div class="rotate">
+            <label for="rot-box">Rotation (&#xB0;)</label>
+            <div class="rotate-controls">
+              <input id="rot-slider" type="range" min="-180" max="180" step="1" value="0" aria-label="Rotation slider">
+              <input id="rot-box" type="number" inputmode="decimal" min="-180" max="180" step="1" value="0">
+            </div>
           </div>
 
           <p id="status" class="status" role="status">Loading the Python runtime. The first visit takes a few seconds.</p>
@@ -306,7 +348,7 @@
         <div class="panel" id="panel-plot">
           <div id="plot-box" class="plot-box">The plot appears here once Python has loaded.</div>
           <div class="legend">
-            <span><svg viewBox="0 0 30 8" aria-hidden="true"><line class="swatch-shape" x1="0" y1="4" x2="30" y2="4"/></svg><span><var>r</var><sub>&#x3C6;</sub></span></span>
+            <span><svg viewBox="0 0 30 8" aria-hidden="true"><line class="swatch-shape" x1="0" y1="4" x2="30" y2="4"/></svg><span><var>r</var>(&#x3C6;)</span></span>
             <span><svg viewBox="0 0 30 8" aria-hidden="true"><line class="swatch-ref" x1="0" y1="4" x2="30" y2="4"/></svg><span><var>r</var><sub>t</sub></span></span>
           </div>
         </div>

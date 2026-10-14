@@ -28,8 +28,6 @@ def compute_patch_shape(m, n_1, n_2, n_3, r_t):
 
     Lists or numpy arrays are both fine.
     """
-    # ---- placeholder: plain superformula with a = b = 1, scaled so the
-    # ---- outline just touches the circle of radius r_t.
     phi_values = np.linspace(0.0, 2.0 * np.pi, N_POINTS)
     a = b = 1.0
     base = (

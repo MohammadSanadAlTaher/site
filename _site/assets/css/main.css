@@ -35,8 +35,8 @@ pre, code { font-size: 16px; color: #454545; background: transparent; font-famil
 
 *:not(pre) > code { padding: 3px 6px; border-radius: 3px; background-color: #eee; margin: 0 5px; }
 
-.web-tool { display: flex; flex-direction: column; flex-wrap: wrap; justify-content: space-between; align-items: center; overflow-x: auto; position: relative; background: #F8F8F2; border: 1px solid #ddd; border-radius: 12px; page-break-inside: avoid; font-size: 0px; line-height: 2; margin-bottom: 1em; max-width: 100%; overflow: auto; padding: 1em 1em; max-height: 800px; height: fit-content; }
-.web-tool iframe { width: 100%; height: fit-content; min-height: 320px; border: 0; }
+.web-tool { display: flex; flex-direction: column; flex-wrap: wrap; justify-content: space-between; align-items: center; overflow-x: auto; position: relative; background: #F8F8F2; border: 1px solid #ddd; border-radius: 12px; page-break-inside: avoid; font-size: 0px; line-height: 2; margin-bottom: 1em; max-width: 100%; overflow: auto; padding: 1em 1em; }
+.web-tool iframe { width: 100%; height: fit-content; min-height: 415px; border: 0; }
 
 pre { overflow-x: auto; position: relative; background: #F8F8F2; border: 1px solid #ddd; border-radius: 12px; page-break-inside: avoid; font-size: 0px; line-height: 2; margin-bottom: 1em; max-width: 100%; overflow: auto; padding: 1em 1em; display: flex; }
 pre > code { display: inline-block; padding: 12px !important; background-color: transparent; border: 0; }
