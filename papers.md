@@ -8,7 +8,7 @@ Published work.
 
 <h3 style="font-weight: lighter;">2026:</h3>
 
-#### [Immersion Cooling Fixture for High Power Testing of Planar Microwave Transmission Lines]({{ site.url }}{{ site.baseurl }}/MjAyNi1FUEVQUy1wYXBlcg)
+#### [Immersion Cooling Fixture for High Power Testing of Planar Microwave Transmission Lines]({{ site.url }}{{ site.baseurl }}/epeps2026)
 [**M. Sanad AlTaher**]({{ site.url }}{{ site.baseurl }}/about-me),
 [Thomas Weller](https://ieeexplore.ieee.org/author/37274715300)
 
@@ -26,7 +26,7 @@ Published work.
 
 #### [Design and Simulation of Square Aperture Multi-hole Legendre Waveguide Directional Couplers](https://link.springer.com/article/10.1007/s40998-023-00688-5)
 [**Mohammad Sanad AlTaher**]({{ site.url }}{{ site.baseurl }}/about-me),
-[Nihad Dib](https://www.just.edu.jo/eportfolio/Pages/Default.aspx?email=nihad),
+[Nihad Dib](https://www.just.edu.jo/eportfolio/Pages/Default.aspx?email=nihad)
 
 
 {%for post in site.posts %}

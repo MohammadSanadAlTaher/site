@@ -1,6 +1,6 @@
 ---
 layout: articles
-permalink: /MjAyNi1FUEVQUy1wYXBlcg
+permalink: /epeps2026
 date: 2026-10-11
 sitemap: false
 noindex: true
