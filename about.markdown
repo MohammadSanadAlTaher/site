@@ -11,7 +11,7 @@ My name is Mohammad Sanad AlTaher (Sanad). I'm currently in my fourth year as a 
     <div style="font-size:20px">Click for:</div>
     <a href="/resume/">Résumé</a>
     <a href="https://www.linkedin.com/in/sanad-altaher/">LinkedIn</a>
-    <a href="/papers/">Publications</a>
+    <a href="/papers/">Papers</a>
   </div>
   <figure>
     <img src="/assets/img/selfphoto26.jpg" alt="Sanad AlTaher" width="242px" style= "border-radius:12px; margin-left: auto; margin-right: auto;">
